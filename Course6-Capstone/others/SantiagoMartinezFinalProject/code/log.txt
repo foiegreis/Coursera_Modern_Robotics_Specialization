@@ -1,1 +1,0 @@
-santi@DESKTOP-H3OQN8U:~/dolphin/seahorse$ /bin/python3 /home/santi/dolphin/seahorse/main.py
