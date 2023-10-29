@@ -1,0 +1,12 @@
+----Ex 2: 3 bodies arch assembly-----
+
+Collapsing configuration:
+Bodies: [[2.0, 41.0, 16.5], [2.0, 79.0, 16.5], [2.0, 50.0, 33.0]]
+Assembly collapses
+No solution
+
+Standing configuration:
+Bodies: [[2.0, 41.0, 16.5], [2.0, 79.0, 16.5], [2.0, 50.0, 33.0]]
+Assembly stands
+k: [ 1.     1.     1.    46.683 22.974  1.     1.     1.     1.     1.
+  1.023 22.931 23.443  1.    24.24   1.     1.301]

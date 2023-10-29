@@ -1,0 +1,36 @@
+/opt/homebrew/bin/python3.11 /Users/foiegreis/Desktop/code/ModernRobotics/Course5.1_Form_closure/main.py
+
+---Case1--------------------------------------------
+
+Contact points
+[[0 1 0]
+ [1 1 0]]
+
+Normals
+[0.         3.92699082]
+
+F matrix
+[[-1.00000000e+00  2.22044605e-16]
+ [ 1.00000000e+00 -7.07106781e-01]
+ [ 0.00000000e+00 -7.07106781e-01]]
+
+Solution:
+Form closure: False with k= None
+
+---Case2--------------------------------------------
+
+Contact points
+[[0 1 0]
+ [1 1 0]
+ [1 0 0]]
+
+Normals
+[0.         3.92699082]
+
+F matrix
+[[-1.00000000e+00  2.22044605e-16  1.00000000e+00]
+ [ 1.00000000e+00 -7.07106781e-01  6.12323400e-17]
+ [ 0.00000000e+00 -7.07106781e-01  1.00000000e+00]]
+
+Solution:
+Form closure: True with k= [1.         1.41421356 1.        ]

@@ -1,0 +1,11 @@
+----Ex 1: 2 bodies leaning assembly-----
+
+Collapsing configuration:
+Bodies: [[2, 25, 35], [5, 66, 42]]
+Assembly collapses
+No solution
+
+Standing configuration:
+Bodies: [[2, 25, 35], [10, 66, 42]]
+Assembly stands
+k: [ 3.018 16.538  1.     5.76  22.42   1.    40.37  48.27 ]

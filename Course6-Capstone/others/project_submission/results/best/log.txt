@@ -1,0 +1,7 @@
+>>youbot_test
+Control Proportional Gain: 4
+Control Integral Gain: 0.5
+Simulating controlled process
+Generating animation csv file
+Writing and plotting out error data
+Done

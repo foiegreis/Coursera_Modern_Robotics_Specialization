@@ -1,0 +1,18 @@
+Evaluating form closure for ../contacts_open.csv
+
+Wrench Matrix:
+[[ 2.50000000e+01  3.50000000e+01 -4.00000000e+01 -1.41421356e+01]
+ [ 6.12323400e-17  6.12323400e-17  1.00000000e+00 -7.07106781e-01]
+ [ 1.00000000e+00  1.00000000e+00  0.00000000e+00 -7.07106781e-01]]
+At least one open COR region found!
+Rank of wrench matrix is 3
+ Full closure is FALSE
+
+Evaluating form closure for ../contacts_closed.csv
+
+Wrench Matrix:
+[[ 2.50000000e+01  3.50000000e+01 -4.00000000e+01 -3.26300775e+00]
+ [ 6.12323400e-17  6.12323400e-17  1.00000000e+00 -5.73576436e-01]
+ [ 1.00000000e+00  1.00000000e+00  0.00000000e+00 -8.19152044e-01]]
+Rank of wrench matrix is 3
+ Full closure is TRUE

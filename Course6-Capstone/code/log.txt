@@ -1,0 +1,10 @@
+Config
+cube initial config           phi = 0, x = 1, y = 0
+cube final config             phi = -1.5707963267948966, x = 0, y = -1
+initial config error          phi = -0.5235987755982988, x = -0.2, y = 0.2
+initial config                q = [-0.5235987755982988, -0.2, 0.2, 1.5707963267948966, -0.5235987755982988, -0.5235987755982988, 0, 0, 0, 0, 0, 0]
+max wheels velocity           20
+max arm joints velocity       20
+controller type               ff_pid, kp = 4.0, kd = 0.8, ki = 0.003
+test joint limits             True
+steps in trajectory           1800

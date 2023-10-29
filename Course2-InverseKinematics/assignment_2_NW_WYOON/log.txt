@@ -1,0 +1,3000 @@
+iteration 1:
+SE(3) end - effector config: 
+[[-0.146  0.25   0.957 -0.59 ]
+ [ 0.854 -0.457  0.25   0.951]
+ [ 0.5    0.854 -0.146 -0.381]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 1.643  1.245  1.643  0.753  0.447 -1.342]
+angular error magnitude [omega_b]: 2.636
+linear error magnitude [v_b]: 1.603
+
+iteration 2:
+SE(3) end - effector config: 
+[[-0.126  0.198  0.972 -0.553]
+ [ 0.882 -0.425  0.202  0.946]
+ [ 0.453  0.883 -0.121 -0.41 ]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 1.593  1.212  1.599  0.735  0.433 -1.304]
+angular error magnitude [omega_b]: 2.562
+linear error magnitude [v_b]: 1.558
+
+iteration 3:
+SE(3) end - effector config: 
+[[-0.104  0.148  0.984 -0.516]
+ [ 0.908 -0.39   0.155  0.938]
+ [ 0.406  0.909 -0.094 -0.437]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 1.543  1.181  1.554  0.716  0.419 -1.266]
+angular error magnitude [omega_b]: 2.488
+linear error magnitude [v_b]: 1.514
+
+iteration 4:
+SE(3) end - effector config: 
+[[-0.08   0.098  0.992 -0.479]
+ [ 0.93  -0.351  0.11   0.927]
+ [ 0.359  0.931 -0.063 -0.464]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 1.492  1.15   1.511  0.699  0.404 -1.229]
+angular error magnitude [omega_b]: 2.415
+linear error magnitude [v_b]: 1.47
+
+iteration 5:
+SE(3) end - effector config: 
+[[-0.054  0.049  0.997 -0.442]
+ [ 0.949 -0.309  0.067  0.913]
+ [ 0.312  0.95  -0.03  -0.491]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 1.441  1.119  1.468  0.682  0.388 -1.193]
+angular error magnitude [omega_b]: 2.342
+linear error magnitude [v_b]: 1.428
+
+iteration 6:
+SE(3) end - effector config: 
+[[-0.027  0.001  1.    -0.404]
+ [ 0.964 -0.263  0.026  0.896]
+ [ 0.263  0.965  0.006 -0.517]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 1.388  1.089  1.425  0.665  0.371 -1.157]
+angular error magnitude [omega_b]: 2.268
+linear error magnitude [v_b]: 1.385
+
+iteration 7:
+SE(3) end - effector config: 
+[[ 0.001 -0.048  0.999 -0.364]
+ [ 0.977 -0.214 -0.012  0.875]
+ [ 0.214  0.976  0.047 -0.544]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 1.332  1.059  1.383  0.651  0.352 -1.121]
+angular error magnitude [omega_b]: 2.193
+linear error magnitude [v_b]: 1.343
+
+iteration 8:
+SE(3) end - effector config: 
+[[ 0.03  -0.099  0.995 -0.321]
+ [ 0.986 -0.161 -0.046  0.85 ]
+ [ 0.165  0.982  0.093 -0.572]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 1.273  1.027  1.343  0.638  0.329 -1.083]
+angular error magnitude [omega_b]: 2.117
+linear error magnitude [v_b]: 1.299
+
+iteration 9:
+SE(3) end - effector config: 
+[[ 0.06  -0.15   0.987 -0.27 ]
+ [ 0.991 -0.106 -0.076  0.817]
+ [ 0.116  0.983  0.143 -0.598]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 1.211  0.995  1.305  0.63   0.3   -1.039]
+angular error magnitude [omega_b]: 2.04
+linear error magnitude [v_b]: 1.251
+
+iteration 10:
+SE(3) end - effector config: 
+[[ 0.09  -0.195  0.977 -0.211]
+ [ 0.994 -0.047 -0.101  0.749]
+ [ 0.065  0.98   0.189 -0.628]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 1.15   0.969  1.264  0.608  0.237 -0.98 ]
+angular error magnitude [omega_b]: 1.965
+linear error magnitude [v_b]: 1.177
+
+iteration 11:
+SE(3) end - effector config: 
+[[ 0.12  -0.227  0.967 -0.173]
+ [ 0.993  0.02  -0.119  0.695]
+ [ 0.008  0.974  0.227 -0.653]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 1.09   0.956  1.216  0.587  0.196 -0.941]
+angular error magnitude [omega_b]: 1.893
+linear error magnitude [v_b]: 1.126
+
+iteration 12:
+SE(3) end - effector config: 
+[[ 0.152 -0.252  0.956 -0.148]
+ [ 0.988  0.068 -0.139  0.67 ]
+ [-0.03   0.965  0.26  -0.659]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 1.048  0.936  1.178  0.571  0.187 -0.915]
+angular error magnitude [omega_b]: 1.834
+linear error magnitude [v_b]: 1.095
+
+iteration 13:
+SE(3) end - effector config: 
+[[ 0.184 -0.275  0.944 -0.125]
+ [ 0.981  0.109 -0.159  0.646]
+ [-0.06   0.955  0.29  -0.659]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 1.015  0.913  1.144  0.554  0.18  -0.889]
+angular error magnitude [omega_b]: 1.781
+linear error magnitude [v_b]: 1.063
+
+iteration 14:
+SE(3) end - effector config: 
+[[ 0.216 -0.295  0.931 -0.104]
+ [ 0.973  0.148 -0.178  0.624]
+ [-0.085  0.944  0.319 -0.656]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.984  0.89   1.111  0.539  0.173 -0.864]
+angular error magnitude [omega_b]: 1.731
+linear error magnitude [v_b]: 1.032
+
+iteration 15:
+SE(3) end - effector config: 
+[[ 0.247 -0.313  0.917 -0.083]
+ [ 0.963  0.184 -0.197  0.603]
+ [-0.107  0.932  0.347 -0.652]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.955  0.867  1.08   0.523  0.168 -0.839]
+angular error magnitude [omega_b]: 1.682
+linear error magnitude [v_b]: 1.003
+
+iteration 16:
+SE(3) end - effector config: 
+[[ 0.278 -0.329  0.902 -0.065]
+ [ 0.952  0.219 -0.213  0.582]
+ [-0.128  0.918  0.374 -0.646]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.927  0.844  1.05   0.509  0.163 -0.815]
+angular error magnitude [omega_b]: 1.635
+linear error magnitude [v_b]: 0.975
+
+iteration 17:
+SE(3) end - effector config: 
+[[ 0.308 -0.344  0.887 -0.047]
+ [ 0.94   0.253 -0.228  0.562]
+ [-0.146  0.904  0.401 -0.64 ]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.9    0.822  1.02   0.495  0.158 -0.792]
+angular error magnitude [omega_b]: 1.59
+linear error magnitude [v_b]: 0.947
+
+iteration 18:
+SE(3) end - effector config: 
+[[ 0.338 -0.356  0.871 -0.031]
+ [ 0.927  0.286 -0.242  0.542]
+ [-0.163  0.889  0.427 -0.632]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.875  0.8    0.992  0.481  0.153 -0.77 ]
+angular error magnitude [omega_b]: 1.545
+linear error magnitude [v_b]: 0.92
+
+iteration 19:
+SE(3) end - effector config: 
+[[ 0.366 -0.367  0.855 -0.015]
+ [ 0.913  0.318 -0.255  0.523]
+ [-0.179  0.874  0.452 -0.625]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.85   0.778  0.964  0.467  0.149 -0.748]
+angular error magnitude [omega_b]: 1.502
+linear error magnitude [v_b]: 0.894
+
+iteration 20:
+SE(3) end - effector config: 
+[[ 0.394 -0.377  0.838 -0.001]
+ [ 0.899  0.349 -0.266  0.504]
+ [-0.192  0.858  0.476 -0.616]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.826  0.757  0.937  0.454  0.144 -0.727]
+angular error magnitude [omega_b]: 1.461
+linear error magnitude [v_b]: 0.869
+
+iteration 21:
+SE(3) end - effector config: 
+[[ 0.421 -0.385  0.821  0.012]
+ [ 0.884  0.379 -0.276  0.486]
+ [-0.205  0.842  0.5   -0.607]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.803  0.737  0.911  0.442  0.14  -0.707]
+angular error magnitude [omega_b]: 1.42
+linear error magnitude [v_b]: 0.845
+
+iteration 22:
+SE(3) end - effector config: 
+[[ 0.447 -0.392  0.804  0.024]
+ [ 0.868  0.407 -0.284  0.468]
+ [-0.216  0.825  0.522 -0.598]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.78   0.717  0.886  0.43   0.136 -0.687]
+angular error magnitude [omega_b]: 1.381
+linear error magnitude [v_b]: 0.822
+
+iteration 23:
+SE(3) end - effector config: 
+[[ 0.473 -0.398  0.786  0.035]
+ [ 0.852  0.435 -0.292  0.45 ]
+ [-0.226  0.808  0.544 -0.588]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.758  0.698  0.861  0.418  0.132 -0.668]
+angular error magnitude [omega_b]: 1.343
+linear error magnitude [v_b]: 0.799
+
+iteration 24:
+SE(3) end - effector config: 
+[[ 0.497 -0.402  0.769  0.045]
+ [ 0.835  0.461 -0.299  0.433]
+ [-0.235  0.791  0.565 -0.578]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.737  0.679  0.837  0.406  0.128 -0.649]
+angular error magnitude [omega_b]: 1.306
+linear error magnitude [v_b]: 0.777
+
+iteration 25:
+SE(3) end - effector config: 
+[[ 0.52  -0.406  0.751  0.054]
+ [ 0.819  0.487 -0.304  0.416]
+ [-0.242  0.774  0.586 -0.568]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.717  0.661  0.814  0.395  0.125 -0.631]
+angular error magnitude [omega_b]: 1.27
+linear error magnitude [v_b]: 0.755
+
+iteration 26:
+SE(3) end - effector config: 
+[[ 0.543 -0.408  0.734  0.063]
+ [ 0.802  0.511 -0.309  0.4  ]
+ [-0.249  0.756  0.605 -0.558]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.697  0.643  0.792  0.384  0.121 -0.614]
+angular error magnitude [omega_b]: 1.235
+linear error magnitude [v_b]: 0.734
+
+iteration 27:
+SE(3) end - effector config: 
+[[ 0.564 -0.41   0.717  0.07 ]
+ [ 0.785  0.534 -0.313  0.385]
+ [-0.255  0.739  0.624 -0.548]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.677  0.626  0.77   0.374  0.118 -0.597]
+angular error magnitude [omega_b]: 1.201
+linear error magnitude [v_b]: 0.714
+
+iteration 28:
+SE(3) end - effector config: 
+[[ 0.585 -0.411  0.699  0.077]
+ [ 0.768  0.557 -0.316  0.37 ]
+ [-0.26   0.722  0.641 -0.537]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.659  0.609  0.749  0.363  0.114 -0.581]
+angular error magnitude [omega_b]: 1.168
+linear error magnitude [v_b]: 0.695
+
+iteration 29:
+SE(3) end - effector config: 
+[[ 0.605 -0.411  0.682  0.084]
+ [ 0.751  0.578 -0.318  0.355]
+ [-0.264  0.705  0.659 -0.526]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.641  0.593  0.728  0.353  0.111 -0.565]
+angular error magnitude [omega_b]: 1.137
+linear error magnitude [v_b]: 0.676
+
+iteration 30:
+SE(3) end - effector config: 
+[[ 0.624 -0.41   0.665  0.089]
+ [ 0.735  0.599 -0.319  0.341]
+ [-0.267  0.688  0.675 -0.516]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.623  0.577  0.708  0.344  0.108 -0.55 ]
+angular error magnitude [omega_b]: 1.106
+linear error magnitude [v_b]: 0.657
+
+iteration 31:
+SE(3) end - effector config: 
+[[ 0.642 -0.409  0.649  0.094]
+ [ 0.718  0.618 -0.32   0.328]
+ [-0.27   0.671  0.69  -0.505]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.606  0.561  0.689  0.334  0.105 -0.535]
+angular error magnitude [omega_b]: 1.076
+linear error magnitude [v_b]: 0.639
+
+iteration 32:
+SE(3) end - effector config: 
+[[ 0.659 -0.408  0.632  0.099]
+ [ 0.701  0.637 -0.321  0.315]
+ [-0.272  0.655  0.705 -0.495]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.59   0.546  0.67   0.325  0.102 -0.52 ]
+angular error magnitude [omega_b]: 1.047
+linear error magnitude [v_b]: 0.622
+
+iteration 33:
+SE(3) end - effector config: 
+[[ 0.676 -0.405  0.616  0.103]
+ [ 0.685  0.654 -0.321  0.303]
+ [-0.273  0.638  0.72  -0.484]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.574  0.532  0.652  0.317  0.099 -0.506]
+angular error magnitude [omega_b]: 1.018
+linear error magnitude [v_b]: 0.605
+
+iteration 34:
+SE(3) end - effector config: 
+[[ 0.691 -0.403  0.6    0.106]
+ [ 0.669  0.671 -0.32   0.291]
+ [-0.274  0.622  0.733 -0.474]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.558  0.518  0.634  0.308  0.096 -0.493]
+angular error magnitude [omega_b]: 0.991
+linear error magnitude [v_b]: 0.589
+
+iteration 35:
+SE(3) end - effector config: 
+[[ 0.706 -0.399  0.585  0.109]
+ [ 0.653  0.687 -0.319  0.279]
+ [-0.274  0.607  0.746 -0.463]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.543  0.504  0.617  0.3    0.094 -0.48 ]
+angular error magnitude [omega_b]: 0.965
+linear error magnitude [v_b]: 0.573
+
+iteration 36:
+SE(3) end - effector config: 
+[[ 0.72  -0.396  0.569  0.112]
+ [ 0.637  0.703 -0.317  0.268]
+ [-0.274  0.591  0.758 -0.453]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.529  0.491  0.601  0.292  0.091 -0.467]
+angular error magnitude [omega_b]: 0.939
+linear error magnitude [v_b]: 0.558
+
+iteration 37:
+SE(3) end - effector config: 
+[[ 0.734 -0.392  0.555  0.114]
+ [ 0.622  0.717 -0.315  0.257]
+ [-0.274  0.576  0.77  -0.443]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.515  0.478  0.585  0.284  0.089 -0.455]
+angular error magnitude [omega_b]: 0.914
+linear error magnitude [v_b]: 0.543
+
+iteration 38:
+SE(3) end - effector config: 
+[[ 0.747 -0.388  0.54   0.116]
+ [ 0.606  0.731 -0.313  0.247]
+ [-0.273  0.561  0.781 -0.433]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.501  0.466  0.569  0.277  0.086 -0.443]
+angular error magnitude [omega_b]: 0.89
+linear error magnitude [v_b]: 0.529
+
+iteration 39:
+SE(3) end - effector config: 
+[[ 0.759 -0.384  0.526  0.118]
+ [ 0.592  0.744 -0.311  0.238]
+ [-0.272  0.547  0.792 -0.423]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.488  0.454  0.554  0.269  0.084 -0.431]
+angular error magnitude [omega_b]: 0.867
+linear error magnitude [v_b]: 0.515
+
+iteration 40:
+SE(3) end - effector config: 
+[[ 0.771 -0.379  0.512  0.119]
+ [ 0.577  0.756 -0.308  0.228]
+ [-0.271  0.533  0.802 -0.414]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.475  0.442  0.54   0.262  0.082 -0.42 ]
+angular error magnitude [omega_b]: 0.844
+linear error magnitude [v_b]: 0.502
+
+iteration 41:
+SE(3) end - effector config: 
+[[ 0.782 -0.375  0.499  0.12 ]
+ [ 0.563  0.768 -0.305  0.219]
+ [-0.269  0.519  0.811 -0.404]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.463  0.431  0.526  0.255  0.08  -0.409]
+angular error magnitude [omega_b]: 0.822
+linear error magnitude [v_b]: 0.489
+
+iteration 42:
+SE(3) end - effector config: 
+[[ 0.792 -0.37   0.486  0.121]
+ [ 0.549  0.779 -0.302  0.211]
+ [-0.267  0.506  0.82  -0.395]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.451  0.42   0.512  0.249  0.078 -0.399]
+angular error magnitude [omega_b]: 0.801
+linear error magnitude [v_b]: 0.476
+
+iteration 43:
+SE(3) end - effector config: 
+[[ 0.802 -0.365  0.473  0.121]
+ [ 0.535  0.79  -0.299  0.203]
+ [-0.265  0.493  0.829 -0.386]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.439  0.409  0.499  0.243  0.076 -0.388]
+angular error magnitude [omega_b]: 0.781
+linear error magnitude [v_b]: 0.464
+
+iteration 44:
+SE(3) end - effector config: 
+[[ 0.811 -0.36   0.461  0.121]
+ [ 0.522  0.8   -0.295  0.195]
+ [-0.262  0.48   0.837 -0.377]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.428  0.399  0.487  0.236  0.074 -0.379]
+angular error magnitude [omega_b]: 0.761
+linear error magnitude [v_b]: 0.452
+
+iteration 45:
+SE(3) end - effector config: 
+[[ 0.82  -0.355  0.449  0.122]
+ [ 0.51   0.809 -0.292  0.188]
+ [-0.26   0.468  0.845 -0.369]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.417  0.389  0.474  0.23   0.072 -0.369]
+angular error magnitude [omega_b]: 0.742
+linear error magnitude [v_b]: 0.441
+
+iteration 46:
+SE(3) end - effector config: 
+[[ 0.829 -0.349  0.437  0.122]
+ [ 0.497  0.818 -0.288  0.181]
+ [-0.257  0.456  0.852 -0.36 ]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.407  0.38   0.463  0.225  0.07  -0.36 ]
+angular error magnitude [omega_b]: 0.723
+linear error magnitude [v_b]: 0.43
+
+iteration 47:
+SE(3) end - effector config: 
+[[ 0.837 -0.344  0.426  0.121]
+ [ 0.485  0.827 -0.284  0.174]
+ [-0.254  0.445  0.859 -0.352]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.397  0.37   0.451  0.219  0.068 -0.351]
+angular error magnitude [omega_b]: 0.706
+linear error magnitude [v_b]: 0.42
+
+iteration 48:
+SE(3) end - effector config: 
+[[ 0.844 -0.339  0.415  0.121]
+ [ 0.473  0.835 -0.281  0.168]
+ [-0.252  0.434  0.865 -0.344]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.387  0.361  0.44   0.214  0.066 -0.343]
+angular error magnitude [omega_b]: 0.689
+linear error magnitude [v_b]: 0.409
+
+iteration 49:
+SE(3) end - effector config: 
+[[ 0.851 -0.334  0.405  0.121]
+ [ 0.462  0.843 -0.277  0.162]
+ [-0.249  0.423  0.871 -0.336]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.378  0.353  0.43   0.209  0.065 -0.335]
+angular error magnitude [omega_b]: 0.672
+linear error magnitude [v_b]: 0.4
+
+iteration 50:
+SE(3) end - effector config: 
+[[ 0.858 -0.329  0.395  0.12 ]
+ [ 0.451  0.85  -0.273  0.156]
+ [-0.246  0.412  0.877 -0.329]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.369  0.344  0.419  0.204  0.063 -0.327]
+angular error magnitude [omega_b]: 0.656
+linear error magnitude [v_b]: 0.39
+
+iteration 51:
+SE(3) end - effector config: 
+[[ 0.864 -0.324  0.385  0.119]
+ [ 0.441  0.856 -0.269  0.15 ]
+ [-0.243  0.402  0.883 -0.322]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.36   0.336  0.409  0.199  0.062 -0.319]
+angular error magnitude [omega_b]: 0.641
+linear error magnitude [v_b]: 0.381
+
+iteration 52:
+SE(3) end - effector config: 
+[[ 0.87  -0.318  0.376  0.119]
+ [ 0.43   0.863 -0.265  0.145]
+ [-0.24   0.393  0.888 -0.315]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.352  0.329  0.4    0.194  0.06  -0.312]
+angular error magnitude [omega_b]: 0.626
+linear error magnitude [v_b]: 0.372
+
+iteration 53:
+SE(3) end - effector config: 
+[[ 0.876 -0.313  0.367  0.118]
+ [ 0.42   0.869 -0.262  0.14 ]
+ [-0.237  0.383  0.893 -0.308]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.343  0.321  0.391  0.19   0.059 -0.305]
+angular error magnitude [omega_b]: 0.611
+linear error magnitude [v_b]: 0.364
+
+iteration 54:
+SE(3) end - effector config: 
+[[ 0.881 -0.308  0.358  0.117]
+ [ 0.411  0.874 -0.258  0.135]
+ [-0.233  0.374  0.897 -0.301]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.336  0.314  0.382  0.186  0.058 -0.298]
+angular error magnitude [omega_b]: 0.598
+linear error magnitude [v_b]: 0.356
+
+iteration 55:
+SE(3) end - effector config: 
+[[ 0.886 -0.304  0.35   0.116]
+ [ 0.402  0.88  -0.254  0.131]
+ [-0.23   0.366  0.902 -0.295]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.328  0.307  0.374  0.182  0.056 -0.291]
+angular error magnitude [omega_b]: 0.585
+linear error magnitude [v_b]: 0.348
+
+iteration 56:
+SE(3) end - effector config: 
+[[ 0.891 -0.299  0.342  0.115]
+ [ 0.393  0.885 -0.25   0.127]
+ [-0.227  0.357  0.906 -0.289]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.321  0.301  0.365  0.178  0.055 -0.285]
+angular error magnitude [omega_b]: 0.572
+linear error magnitude [v_b]: 0.34
+
+iteration 57:
+SE(3) end - effector config: 
+[[ 0.896 -0.294  0.334  0.114]
+ [ 0.384  0.89  -0.247  0.123]
+ [-0.224  0.349  0.91  -0.283]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.314  0.294  0.358  0.174  0.054 -0.279]
+angular error magnitude [omega_b]: 0.56
+linear error magnitude [v_b]: 0.333
+
+iteration 58:
+SE(3) end - effector config: 
+[[ 0.9   -0.29   0.326  0.113]
+ [ 0.376  0.894 -0.243  0.119]
+ [-0.221  0.342  0.913 -0.277]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.308  0.288  0.35   0.17   0.053 -0.273]
+angular error magnitude [omega_b]: 0.548
+linear error magnitude [v_b]: 0.326
+
+iteration 59:
+SE(3) end - effector config: 
+[[ 0.904 -0.285  0.319  0.112]
+ [ 0.368  0.898 -0.24   0.115]
+ [-0.218  0.334  0.917 -0.272]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.301  0.282  0.343  0.167  0.052 -0.267]
+angular error magnitude [omega_b]: 0.537
+linear error magnitude [v_b]: 0.319
+
+iteration 60:
+SE(3) end - effector config: 
+[[ 0.907 -0.281  0.313  0.111]
+ [ 0.361  0.902 -0.236  0.112]
+ [-0.216  0.327  0.92  -0.266]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.295  0.277  0.336  0.163  0.051 -0.262]
+angular error magnitude [omega_b]: 0.526
+linear error magnitude [v_b]: 0.313
+
+iteration 61:
+SE(3) end - effector config: 
+[[ 0.911 -0.277  0.306  0.11 ]
+ [ 0.353  0.906 -0.233  0.109]
+ [-0.213  0.321  0.923 -0.261]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.289  0.271  0.329  0.16   0.05  -0.257]
+angular error magnitude [omega_b]: 0.516
+linear error magnitude [v_b]: 0.307
+
+iteration 62:
+SE(3) end - effector config: 
+[[ 0.914 -0.273  0.3    0.109]
+ [ 0.347  0.909 -0.23   0.105]
+ [-0.21   0.314  0.926 -0.256]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.284  0.266  0.323  0.157  0.049 -0.252]
+angular error magnitude [omega_b]: 0.506
+linear error magnitude [v_b]: 0.301
+
+iteration 63:
+SE(3) end - effector config: 
+[[ 0.917 -0.269  0.294  0.108]
+ [ 0.34   0.913 -0.227  0.103]
+ [-0.207  0.308  0.929 -0.252]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.279  0.261  0.317  0.154  0.048 -0.247]
+angular error magnitude [omega_b]: 0.496
+linear error magnitude [v_b]: 0.295
+
+iteration 64:
+SE(3) end - effector config: 
+[[ 0.92  -0.265  0.288  0.107]
+ [ 0.334  0.916 -0.224  0.1  ]
+ [-0.205  0.302  0.931 -0.247]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.274  0.256  0.311  0.151  0.047 -0.243]
+angular error magnitude [omega_b]: 0.487
+linear error magnitude [v_b]: 0.29
+
+iteration 65:
+SE(3) end - effector config: 
+[[ 0.923 -0.261  0.283  0.106]
+ [ 0.328  0.919 -0.221  0.097]
+ [-0.202  0.296  0.933 -0.243]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.269  0.252  0.306  0.149  0.046 -0.239]
+angular error magnitude [omega_b]: 0.479
+linear error magnitude [v_b]: 0.285
+
+iteration 66:
+SE(3) end - effector config: 
+[[ 0.926 -0.258  0.278  0.105]
+ [ 0.322  0.921 -0.218  0.095]
+ [-0.2    0.291  0.936 -0.239]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.264  0.248  0.301  0.146  0.045 -0.235]
+angular error magnitude [omega_b]: 0.471
+linear error magnitude [v_b]: 0.28
+
+iteration 67:
+SE(3) end - effector config: 
+[[ 0.928 -0.254  0.273  0.104]
+ [ 0.316  0.924 -0.215  0.092]
+ [-0.197  0.286  0.938 -0.235]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.26   0.244  0.296  0.144  0.045 -0.231]
+angular error magnitude [omega_b]: 0.463
+linear error magnitude [v_b]: 0.276
+
+iteration 68:
+SE(3) end - effector config: 
+[[ 0.93  -0.251  0.268  0.103]
+ [ 0.311  0.926 -0.213  0.09 ]
+ [-0.195  0.281  0.94  -0.231]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.256  0.24   0.291  0.141  0.044 -0.227]
+angular error magnitude [omega_b]: 0.456
+linear error magnitude [v_b]: 0.271
+
+iteration 69:
+SE(3) end - effector config: 
+[[ 0.932 -0.248  0.264  0.102]
+ [ 0.306  0.928 -0.21   0.088]
+ [-0.193  0.277  0.941 -0.228]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.252  0.236  0.287  0.139  0.043 -0.224]
+angular error magnitude [omega_b]: 0.449
+linear error magnitude [v_b]: 0.267
+
+iteration 70:
+SE(3) end - effector config: 
+[[ 0.934 -0.245  0.259  0.101]
+ [ 0.302  0.931 -0.208  0.086]
+ [-0.191  0.272  0.943 -0.225]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.248  0.233  0.282  0.137  0.042 -0.22 ]
+angular error magnitude [omega_b]: 0.442
+linear error magnitude [v_b]: 0.263
+
+iteration 71:
+SE(3) end - effector config: 
+[[ 0.936 -0.242  0.256  0.1  ]
+ [ 0.297  0.933 -0.205  0.085]
+ [-0.189  0.268  0.945 -0.221]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.244  0.229  0.278  0.135  0.042 -0.217]
+angular error magnitude [omega_b]: 0.436
+linear error magnitude [v_b]: 0.259
+
+iteration 72:
+SE(3) end - effector config: 
+[[ 0.938 -0.239  0.252  0.099]
+ [ 0.293  0.934 -0.203  0.083]
+ [-0.187  0.264  0.946 -0.218]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.241  0.226  0.274  0.133  0.041 -0.214]
+angular error magnitude [omega_b]: 0.43
+linear error magnitude [v_b]: 0.256
+
+iteration 73:
+SE(3) end - effector config: 
+[[ 0.939 -0.237  0.248  0.098]
+ [ 0.289  0.936 -0.201  0.081]
+ [-0.185  0.261  0.948 -0.216]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.238  0.223  0.271  0.132  0.041 -0.211]
+angular error magnitude [omega_b]: 0.424
+linear error magnitude [v_b]: 0.252
+
+iteration 74:
+SE(3) end - effector config: 
+[[ 0.941 -0.234  0.245  0.098]
+ [ 0.285  0.938 -0.199  0.08 ]
+ [-0.183  0.257  0.949 -0.213]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.235  0.22   0.267  0.13   0.04  -0.209]
+angular error magnitude [omega_b]: 0.419
+linear error magnitude [v_b]: 0.249
+
+iteration 75:
+SE(3) end - effector config: 
+[[ 0.942 -0.232  0.242  0.097]
+ [ 0.282  0.939 -0.197  0.078]
+ [-0.181  0.254  0.95  -0.21 ]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.232  0.218  0.264  0.128  0.04  -0.206]
+angular error magnitude [omega_b]: 0.414
+linear error magnitude [v_b]: 0.246
+
+iteration 76:
+SE(3) end - effector config: 
+[[ 0.944 -0.23   0.239  0.096]
+ [ 0.278  0.94  -0.195  0.077]
+ [-0.18   0.251  0.951 -0.208]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.229  0.215  0.261  0.127  0.039 -0.204]
+angular error magnitude [omega_b]: 0.409
+linear error magnitude [v_b]: 0.243
+
+iteration 77:
+SE(3) end - effector config: 
+[[ 0.945 -0.228  0.236  0.095]
+ [ 0.275  0.942 -0.194  0.076]
+ [-0.178  0.248  0.952 -0.206]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.227  0.213  0.258  0.126  0.039 -0.202]
+angular error magnitude [omega_b]: 0.404
+linear error magnitude [v_b]: 0.241
+
+iteration 78:
+SE(3) end - effector config: 
+[[ 0.946 -0.226  0.233  0.095]
+ [ 0.272  0.943 -0.192  0.075]
+ [-0.177  0.245  0.953 -0.204]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.225  0.211  0.256  0.124  0.038 -0.2  ]
+angular error magnitude [omega_b]: 0.4
+linear error magnitude [v_b]: 0.238
+
+iteration 79:
+SE(3) end - effector config: 
+[[ 0.947 -0.224  0.231  0.094]
+ [ 0.27   0.944 -0.191  0.074]
+ [-0.175  0.243  0.954 -0.202]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.222  0.209  0.253  0.123  0.038 -0.198]
+angular error magnitude [omega_b]: 0.396
+linear error magnitude [v_b]: 0.236
+
+iteration 80:
+SE(3) end - effector config: 
+[[ 0.948 -0.222  0.229  0.094]
+ [ 0.267  0.945 -0.189  0.073]
+ [-0.174  0.24   0.955 -0.2  ]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.22   0.207  0.251  0.122  0.038 -0.196]
+angular error magnitude [omega_b]: 0.393
+linear error magnitude [v_b]: 0.234
+
+iteration 81:
+SE(3) end - effector config: 
+[[ 0.949 -0.22   0.227  0.093]
+ [ 0.265  0.946 -0.188  0.072]
+ [-0.173  0.238  0.956 -0.198]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.218  0.205  0.249  0.121  0.037 -0.194]
+angular error magnitude [omega_b]: 0.389
+linear error magnitude [v_b]: 0.232
+
+iteration 82:
+SE(3) end - effector config: 
+[[ 0.95  -0.219  0.225  0.093]
+ [ 0.262  0.947 -0.187  0.071]
+ [-0.172  0.236  0.956 -0.196]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.217  0.203  0.247  0.12   0.037 -0.193]
+angular error magnitude [omega_b]: 0.386
+linear error magnitude [v_b]: 0.23
+
+iteration 83:
+SE(3) end - effector config: 
+[[ 0.95  -0.217  0.223  0.092]
+ [ 0.26   0.948 -0.185  0.07 ]
+ [-0.171  0.234  0.957 -0.195]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.215  0.202  0.245  0.119  0.037 -0.191]
+angular error magnitude [omega_b]: 0.383
+linear error magnitude [v_b]: 0.228
+
+iteration 84:
+SE(3) end - effector config: 
+[[ 0.951 -0.216  0.221  0.092]
+ [ 0.258  0.948 -0.184  0.069]
+ [-0.17   0.232  0.958 -0.194]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.213  0.2    0.243  0.118  0.037 -0.19 ]
+angular error magnitude [omega_b]: 0.38
+linear error magnitude [v_b]: 0.226
+
+iteration 85:
+SE(3) end - effector config: 
+[[ 0.952 -0.215  0.219  0.091]
+ [ 0.256  0.949 -0.183  0.069]
+ [-0.169  0.231  0.958 -0.192]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.212  0.199  0.241  0.117  0.036 -0.188]
+angular error magnitude [omega_b]: 0.378
+linear error magnitude [v_b]: 0.225
+
+iteration 86:
+SE(3) end - effector config: 
+[[ 0.952 -0.214  0.218  0.091]
+ [ 0.255  0.95  -0.182  0.068]
+ [-0.168  0.229  0.959 -0.191]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.211  0.198  0.24   0.117  0.036 -0.187]
+angular error magnitude [omega_b]: 0.375
+linear error magnitude [v_b]: 0.223
+
+iteration 87:
+SE(3) end - effector config: 
+[[ 0.953 -0.212  0.217  0.09 ]
+ [ 0.253  0.95  -0.181  0.067]
+ [-0.167  0.228  0.959 -0.19 ]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.209  0.196  0.238  0.116  0.036 -0.186]
+angular error magnitude [omega_b]: 0.373
+linear error magnitude [v_b]: 0.222
+
+iteration 88:
+SE(3) end - effector config: 
+[[ 0.953 -0.211  0.215  0.09 ]
+ [ 0.252  0.951 -0.18   0.067]
+ [-0.166  0.226  0.96  -0.189]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.208  0.195  0.237  0.115  0.036 -0.185]
+angular error magnitude [omega_b]: 0.371
+linear error magnitude [v_b]: 0.221
+
+iteration 89:
+SE(3) end - effector config: 
+[[ 0.954 -0.21   0.214  0.09 ]
+ [ 0.25   0.951 -0.18   0.066]
+ [-0.166  0.225  0.96  -0.188]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.207  0.194  0.236  0.115  0.035 -0.184]
+angular error magnitude [omega_b]: 0.369
+linear error magnitude [v_b]: 0.22
+
+iteration 90:
+SE(3) end - effector config: 
+[[ 0.954 -0.209  0.213  0.089]
+ [ 0.249  0.952 -0.179  0.066]
+ [-0.165  0.224  0.961 -0.187]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.206  0.193  0.234  0.114  0.035 -0.183]
+angular error magnitude [omega_b]: 0.367
+linear error magnitude [v_b]: 0.218
+
+iteration 91:
+SE(3) end - effector config: 
+[[ 0.955 -0.208  0.211  0.089]
+ [ 0.247  0.952 -0.178  0.065]
+ [-0.164  0.222  0.961 -0.186]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.205  0.192  0.233  0.113  0.035 -0.182]
+angular error magnitude [omega_b]: 0.365
+linear error magnitude [v_b]: 0.217
+
+iteration 92:
+SE(3) end - effector config: 
+[[ 0.955 -0.208  0.21   0.089]
+ [ 0.246  0.953 -0.177  0.065]
+ [-0.164  0.221  0.961 -0.185]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.204  0.191  0.232  0.113  0.035 -0.181]
+angular error magnitude [omega_b]: 0.363
+linear error magnitude [v_b]: 0.216
+
+iteration 93:
+SE(3) end - effector config: 
+[[ 0.956 -0.207  0.209  0.088]
+ [ 0.245  0.953 -0.177  0.064]
+ [-0.163  0.22   0.962 -0.184]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.203  0.19   0.231  0.112  0.035 -0.18 ]
+angular error magnitude [omega_b]: 0.361
+linear error magnitude [v_b]: 0.215
+
+iteration 94:
+SE(3) end - effector config: 
+[[ 0.956 -0.206  0.208  0.088]
+ [ 0.244  0.954 -0.176  0.064]
+ [-0.162  0.219  0.962 -0.183]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.202  0.189  0.23   0.112  0.035 -0.179]
+angular error magnitude [omega_b]: 0.359
+linear error magnitude [v_b]: 0.214
+
+iteration 95:
+SE(3) end - effector config: 
+[[ 0.957 -0.205  0.207  0.088]
+ [ 0.242  0.954 -0.175  0.064]
+ [-0.162  0.218  0.963 -0.182]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.201  0.188  0.228  0.111  0.034 -0.178]
+angular error magnitude [omega_b]: 0.358
+linear error magnitude [v_b]: 0.213
+
+iteration 96:
+SE(3) end - effector config: 
+[[ 0.957 -0.204  0.206  0.087]
+ [ 0.241  0.955 -0.174  0.063]
+ [-0.161  0.216  0.963 -0.181]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.2    0.187  0.227  0.11   0.034 -0.177]
+angular error magnitude [omega_b]: 0.356
+linear error magnitude [v_b]: 0.212
+
+iteration 97:
+SE(3) end - effector config: 
+[[ 0.958 -0.203  0.205  0.087]
+ [ 0.24   0.955 -0.174  0.063]
+ [-0.16   0.215  0.963 -0.18 ]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.198  0.186  0.226  0.11   0.034 -0.176]
+angular error magnitude [omega_b]: 0.354
+linear error magnitude [v_b]: 0.211
+
+iteration 98:
+SE(3) end - effector config: 
+[[ 0.958 -0.202  0.203  0.087]
+ [ 0.238  0.956 -0.173  0.062]
+ [-0.16   0.214  0.964 -0.179]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.197  0.185  0.225  0.109  0.034 -0.175]
+angular error magnitude [omega_b]: 0.352
+linear error magnitude [v_b]: 0.209
+
+iteration 99:
+SE(3) end - effector config: 
+[[ 0.959 -0.201  0.202  0.086]
+ [ 0.237  0.956 -0.172  0.062]
+ [-0.159  0.213  0.964 -0.178]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.196  0.184  0.223  0.109  0.034 -0.174]
+angular error magnitude [omega_b]: 0.35
+linear error magnitude [v_b]: 0.208
+
+iteration 100:
+SE(3) end - effector config: 
+[[ 0.959 -0.2    0.201  0.086]
+ [ 0.235  0.957 -0.171  0.061]
+ [-0.158  0.211  0.965 -0.177]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.195  0.183  0.222  0.108  0.033 -0.173]
+angular error magnitude [omega_b]: 0.347
+linear error magnitude [v_b]: 0.207
+
+iteration 101:
+SE(3) end - effector config: 
+[[ 0.96  -0.199  0.199  0.086]
+ [ 0.233  0.957 -0.17   0.06 ]
+ [-0.157  0.21   0.965 -0.176]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.194  0.182  0.22   0.107  0.033 -0.172]
+angular error magnitude [omega_b]: 0.345
+linear error magnitude [v_b]: 0.205
+
+iteration 102:
+SE(3) end - effector config: 
+[[ 0.96  -0.197  0.198  0.085]
+ [ 0.232  0.958 -0.169  0.06 ]
+ [-0.156  0.208  0.966 -0.174]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.192  0.18   0.219  0.106  0.033 -0.171]
+angular error magnitude [omega_b]: 0.342
+linear error magnitude [v_b]: 0.204
+
+iteration 103:
+SE(3) end - effector config: 
+[[ 0.961 -0.196  0.196  0.085]
+ [ 0.23   0.959 -0.168  0.059]
+ [-0.155  0.206  0.966 -0.173]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.191  0.179  0.217  0.105  0.033 -0.169]
+angular error magnitude [omega_b]: 0.34
+linear error magnitude [v_b]: 0.202
+
+iteration 104:
+SE(3) end - effector config: 
+[[ 0.962 -0.194  0.194  0.084]
+ [ 0.228  0.959 -0.166  0.058]
+ [-0.154  0.204  0.967 -0.171]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.189  0.177  0.215  0.105  0.032 -0.168]
+angular error magnitude [omega_b]: 0.337
+linear error magnitude [v_b]: 0.2
+
+iteration 105:
+SE(3) end - effector config: 
+[[ 0.962 -0.193  0.192  0.083]
+ [ 0.225  0.96  -0.165  0.057]
+ [-0.153  0.202  0.967 -0.17 ]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.187  0.176  0.213  0.104  0.032 -0.166]
+angular error magnitude [omega_b]: 0.333
+linear error magnitude [v_b]: 0.199
+
+iteration 106:
+SE(3) end - effector config: 
+[[ 0.963 -0.191  0.19   0.083]
+ [ 0.223  0.961 -0.164  0.057]
+ [-0.151  0.2    0.968 -0.168]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.185  0.174  0.211  0.102  0.032 -0.165]
+angular error magnitude [omega_b]: 0.33
+linear error magnitude [v_b]: 0.196
+
+iteration 107:
+SE(3) end - effector config: 
+[[ 0.964 -0.189  0.188  0.082]
+ [ 0.22   0.962 -0.162  0.056]
+ [-0.15   0.197  0.969 -0.166]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.183  0.172  0.208  0.101  0.031 -0.163]
+angular error magnitude [omega_b]: 0.326
+linear error magnitude [v_b]: 0.194
+
+iteration 108:
+SE(3) end - effector config: 
+[[ 0.965 -0.187  0.185  0.081]
+ [ 0.217  0.963 -0.16   0.055]
+ [-0.148  0.195  0.97  -0.164]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.181  0.17   0.206  0.1    0.031 -0.161]
+angular error magnitude [omega_b]: 0.322
+linear error magnitude [v_b]: 0.192
+
+iteration 109:
+SE(3) end - effector config: 
+[[ 0.966 -0.185  0.182  0.08 ]
+ [ 0.214  0.964 -0.158  0.054]
+ [-0.147  0.192  0.97  -0.162]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.178  0.167  0.203  0.099  0.031 -0.158]
+angular error magnitude [omega_b]: 0.317
+linear error magnitude [v_b]: 0.189
+
+iteration 110:
+SE(3) end - effector config: 
+[[ 0.967 -0.182  0.179  0.08 ]
+ [ 0.211  0.965 -0.156  0.053]
+ [-0.145  0.189  0.971 -0.159]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.175  0.165  0.2    0.097  0.03  -0.156]
+angular error magnitude [omega_b]: 0.313
+linear error magnitude [v_b]: 0.186
+
+iteration 111:
+SE(3) end - effector config: 
+[[ 0.968 -0.18   0.176  0.079]
+ [ 0.207  0.966 -0.154  0.051]
+ [-0.143  0.186  0.972 -0.156]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.173  0.162  0.196  0.096  0.03  -0.153]
+angular error magnitude [omega_b]: 0.308
+linear error magnitude [v_b]: 0.183
+
+iteration 112:
+SE(3) end - effector config: 
+[[ 0.969 -0.177  0.173  0.077]
+ [ 0.203  0.967 -0.152  0.05 ]
+ [-0.14   0.182  0.973 -0.154]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.169  0.159  0.193  0.094  0.029 -0.151]
+angular error magnitude [omega_b]: 0.302
+linear error magnitude [v_b]: 0.18
+
+iteration 113:
+SE(3) end - effector config: 
+[[ 0.97  -0.174  0.169  0.076]
+ [ 0.199  0.969 -0.149  0.049]
+ [-0.138  0.178  0.974 -0.151]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.166  0.156  0.189  0.092  0.028 -0.148]
+angular error magnitude [omega_b]: 0.296
+linear error magnitude [v_b]: 0.176
+
+iteration 114:
+SE(3) end - effector config: 
+[[ 0.971 -0.17   0.166  0.075]
+ [ 0.195  0.97  -0.146  0.047]
+ [-0.136  0.175  0.975 -0.148]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.163  0.153  0.185  0.09   0.028 -0.145]
+angular error magnitude [omega_b]: 0.29
+linear error magnitude [v_b]: 0.173
+
+iteration 115:
+SE(3) end - effector config: 
+[[ 0.973 -0.167  0.162  0.074]
+ [ 0.191  0.971 -0.143  0.046]
+ [-0.133  0.17   0.976 -0.144]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.159  0.149  0.181  0.088  0.027 -0.142]
+angular error magnitude [omega_b]: 0.284
+linear error magnitude [v_b]: 0.169
+
+iteration 116:
+SE(3) end - effector config: 
+[[ 0.974 -0.163  0.158  0.072]
+ [ 0.186  0.973 -0.14   0.044]
+ [-0.13   0.166  0.977 -0.141]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.155  0.146  0.177  0.086  0.027 -0.138]
+angular error magnitude [omega_b]: 0.277
+linear error magnitude [v_b]: 0.165
+
+iteration 117:
+SE(3) end - effector config: 
+[[ 0.975 -0.159  0.153  0.071]
+ [ 0.181  0.974 -0.137  0.043]
+ [-0.127  0.161  0.979 -0.137]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.151  0.142  0.172  0.084  0.026 -0.135]
+angular error magnitude [omega_b]: 0.27
+linear error magnitude [v_b]: 0.161
+
+iteration 118:
+SE(3) end - effector config: 
+[[ 0.977 -0.155  0.149  0.069]
+ [ 0.176  0.975 -0.134  0.041]
+ [-0.124  0.157  0.98  -0.133]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.147  0.138  0.167  0.081  0.025 -0.131]
+angular error magnitude [omega_b]: 0.262
+linear error magnitude [v_b]: 0.156
+
+iteration 119:
+SE(3) end - effector config: 
+[[ 0.978 -0.151  0.144  0.068]
+ [ 0.17   0.977 -0.13   0.039]
+ [-0.121  0.152  0.981 -0.129]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.143  0.134  0.162  0.079  0.024 -0.127]
+angular error magnitude [omega_b]: 0.254
+linear error magnitude [v_b]: 0.152
+
+iteration 120:
+SE(3) end - effector config: 
+[[ 0.979 -0.147  0.139  0.066]
+ [ 0.165  0.978 -0.127  0.038]
+ [-0.118  0.147  0.982 -0.125]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.138  0.13   0.157  0.077  0.024 -0.123]
+angular error magnitude [omega_b]: 0.246
+linear error magnitude [v_b]: 0.147
+
+iteration 121:
+SE(3) end - effector config: 
+[[ 0.981 -0.142  0.134  0.064]
+ [ 0.159  0.98  -0.123  0.036]
+ [-0.114  0.142  0.983 -0.121]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.133  0.125  0.152  0.074  0.023 -0.119]
+angular error magnitude [omega_b]: 0.238
+linear error magnitude [v_b]: 0.142
+
+iteration 122:
+SE(3) end - effector config: 
+[[ 0.982 -0.138  0.129  0.062]
+ [ 0.153  0.981 -0.119  0.034]
+ [-0.111  0.136  0.984 -0.117]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.129  0.121  0.147  0.071  0.022 -0.115]
+angular error magnitude [omega_b]: 0.23
+linear error magnitude [v_b]: 0.137
+
+iteration 123:
+SE(3) end - effector config: 
+[[ 0.983 -0.133  0.124  0.06 ]
+ [ 0.147  0.982 -0.115  0.033]
+ [-0.107  0.131  0.986 -0.112]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.124  0.116  0.141  0.069  0.021 -0.11 ]
+angular error magnitude [omega_b]: 0.221
+linear error magnitude [v_b]: 0.132
+
+iteration 124:
+SE(3) end - effector config: 
+[[ 0.985 -0.128  0.119  0.058]
+ [ 0.141  0.984 -0.11   0.031]
+ [-0.103  0.126  0.987 -0.108]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.119  0.112  0.135  0.066  0.02  -0.106]
+angular error magnitude [omega_b]: 0.212
+linear error magnitude [v_b]: 0.126
+
+iteration 125:
+SE(3) end - effector config: 
+[[ 0.986 -0.123  0.114  0.056]
+ [ 0.135  0.985 -0.106  0.029]
+ [-0.099  0.12   0.988 -0.103]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.114  0.107  0.13   0.063  0.02  -0.102]
+angular error magnitude [omega_b]: 0.203
+linear error magnitude [v_b]: 0.121
+
+iteration 126:
+SE(3) end - effector config: 
+[[ 0.987 -0.118  0.109  0.054]
+ [ 0.129  0.986 -0.102  0.027]
+ [-0.095  0.115  0.989 -0.099]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.109  0.102  0.124  0.06   0.019 -0.097]
+angular error magnitude [omega_b]: 0.194
+linear error magnitude [v_b]: 0.116
+
+iteration 127:
+SE(3) end - effector config: 
+[[ 0.988 -0.113  0.103  0.052]
+ [ 0.123  0.988 -0.097  0.026]
+ [-0.091  0.109  0.99  -0.094]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.104  0.098  0.118  0.058  0.018 -0.093]
+angular error magnitude [omega_b]: 0.185
+linear error magnitude [v_b]: 0.111
+
+iteration 128:
+SE(3) end - effector config: 
+[[ 0.989 -0.107  0.098  0.049]
+ [ 0.117  0.989 -0.093  0.024]
+ [-0.087  0.104  0.991 -0.09 ]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.099  0.093  0.113  0.055  0.017 -0.088]
+angular error magnitude [omega_b]: 0.176
+linear error magnitude [v_b]: 0.105
+
+iteration 129:
+SE(3) end - effector config: 
+[[ 0.99  -0.102  0.093  0.047]
+ [ 0.111  0.99  -0.089  0.023]
+ [-0.083  0.098  0.992 -0.085]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.094  0.088  0.107  0.052  0.016 -0.084]
+angular error magnitude [omega_b]: 0.168
+linear error magnitude [v_b]: 0.1
+
+iteration 130:
+SE(3) end - effector config: 
+[[ 0.991 -0.097  0.088  0.045]
+ [ 0.105  0.991 -0.084  0.021]
+ [-0.079  0.093  0.993 -0.081]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.089  0.084  0.101  0.049  0.015 -0.079]
+angular error magnitude [omega_b]: 0.159
+linear error magnitude [v_b]: 0.095
+
+iteration 131:
+SE(3) end - effector config: 
+[[ 0.992 -0.092  0.083  0.043]
+ [ 0.099  0.992 -0.08   0.02 ]
+ [-0.075  0.088  0.993 -0.076]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.084  0.079  0.096  0.047  0.014 -0.075]
+angular error magnitude [omega_b]: 0.15
+linear error magnitude [v_b]: 0.09
+
+iteration 132:
+SE(3) end - effector config: 
+[[ 0.993 -0.087  0.078  0.041]
+ [ 0.093  0.993 -0.076  0.018]
+ [-0.071  0.082  0.994 -0.072]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.079  0.075  0.09   0.044  0.014 -0.071]
+angular error magnitude [omega_b]: 0.142
+linear error magnitude [v_b]: 0.085
+
+iteration 133:
+SE(3) end - effector config: 
+[[ 0.994 -0.082  0.073  0.038]
+ [ 0.087  0.994 -0.071  0.017]
+ [-0.067  0.077  0.995 -0.068]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.075  0.07   0.085  0.041  0.013 -0.067]
+angular error magnitude [omega_b]: 0.133
+linear error magnitude [v_b]: 0.08
+
+iteration 134:
+SE(3) end - effector config: 
+[[ 0.995 -0.077  0.069  0.036]
+ [ 0.082  0.994 -0.067  0.016]
+ [-0.063  0.073  0.995 -0.063]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.07   0.066  0.08   0.039  0.012 -0.063]
+angular error magnitude [omega_b]: 0.125
+linear error magnitude [v_b]: 0.075
+
+iteration 135:
+SE(3) end - effector config: 
+[[ 0.995 -0.073  0.064  0.034]
+ [ 0.077  0.995 -0.063  0.015]
+ [-0.059  0.068  0.996 -0.06 ]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.066  0.062  0.075  0.037  0.011 -0.059]
+angular error magnitude [omega_b]: 0.117
+linear error magnitude [v_b]: 0.07
+
+iteration 136:
+SE(3) end - effector config: 
+[[ 0.996 -0.068  0.06   0.032]
+ [ 0.072  0.996 -0.059  0.013]
+ [-0.056  0.063  0.996 -0.056]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.061  0.058  0.07   0.034  0.011 -0.055]
+angular error magnitude [omega_b]: 0.11
+linear error magnitude [v_b]: 0.066
+
+iteration 137:
+SE(3) end - effector config: 
+[[ 0.996 -0.064  0.056  0.03 ]
+ [ 0.067  0.996 -0.056  0.012]
+ [-0.052  0.059  0.997 -0.052]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.057  0.054  0.066  0.032  0.01  -0.051]
+angular error magnitude [omega_b]: 0.103
+linear error magnitude [v_b]: 0.061
+
+iteration 138:
+SE(3) end - effector config: 
+[[ 0.997 -0.06   0.052  0.028]
+ [ 0.062  0.997 -0.052  0.011]
+ [-0.049  0.055  0.997 -0.048]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.054  0.051  0.061  0.03   0.009 -0.048]
+angular error magnitude [omega_b]: 0.096
+linear error magnitude [v_b]: 0.057
+
+iteration 139:
+SE(3) end - effector config: 
+[[ 0.997 -0.056  0.048  0.026]
+ [ 0.058  0.997 -0.048  0.01 ]
+ [-0.046  0.051  0.998 -0.045]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.05   0.047  0.057  0.028  0.009 -0.045]
+angular error magnitude [omega_b]: 0.089
+linear error magnitude [v_b]: 0.053
+
+iteration 140:
+SE(3) end - effector config: 
+[[ 0.998 -0.052  0.045  0.025]
+ [ 0.054  0.998 -0.045  0.01 ]
+ [-0.042  0.047  0.998 -0.042]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.046  0.044  0.053  0.026  0.008 -0.042]
+angular error magnitude [omega_b]: 0.083
+linear error magnitude [v_b]: 0.05
+
+iteration 141:
+SE(3) end - effector config: 
+[[ 0.998 -0.048  0.042  0.023]
+ [ 0.05   0.998 -0.042  0.009]
+ [-0.039  0.044  0.998 -0.039]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.043  0.041  0.049  0.024  0.007 -0.039]
+angular error magnitude [omega_b]: 0.077
+linear error magnitude [v_b]: 0.046
+
+iteration 142:
+SE(3) end - effector config: 
+[[ 0.998 -0.045  0.038  0.021]
+ [ 0.046  0.998 -0.039  0.008]
+ [-0.037  0.041  0.999 -0.036]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.04   0.038  0.045  0.022  0.007 -0.036]
+angular error magnitude [omega_b]: 0.071
+linear error magnitude [v_b]: 0.043
+
+iteration 143:
+SE(3) end - effector config: 
+[[ 0.999 -0.041  0.036  0.02 ]
+ [ 0.043  0.998 -0.036  0.007]
+ [-0.034  0.037  0.999 -0.033]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.037  0.035  0.042  0.02   0.006 -0.033]
+angular error magnitude [omega_b]: 0.066
+linear error magnitude [v_b]: 0.039
+
+iteration 144:
+SE(3) end - effector config: 
+[[ 0.999 -0.038  0.033  0.018]
+ [ 0.039  0.999 -0.033  0.007]
+ [-0.031  0.035  0.999 -0.031]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.034  0.032  0.039  0.019  0.006 -0.031]
+angular error magnitude [omega_b]: 0.061
+linear error magnitude [v_b]: 0.036
+
+iteration 145:
+SE(3) end - effector config: 
+[[ 0.999 -0.035  0.03   0.017]
+ [ 0.036  0.999 -0.031  0.006]
+ [-0.029  0.032  0.999 -0.028]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.031  0.03   0.036  0.017  0.005 -0.028]
+angular error magnitude [omega_b]: 0.056
+linear error magnitude [v_b]: 0.034
+
+iteration 146:
+SE(3) end - effector config: 
+[[ 0.999 -0.033  0.028  0.016]
+ [ 0.033  0.999 -0.028  0.006]
+ [-0.027  0.029  0.999 -0.026]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.029  0.027  0.033  0.016  0.005 -0.026]
+angular error magnitude [omega_b]: 0.052
+linear error magnitude [v_b]: 0.031
+
+iteration 147:
+SE(3) end - effector config: 
+[[ 0.999 -0.03   0.026  0.014]
+ [ 0.031  0.999 -0.026  0.005]
+ [-0.025  0.027  0.999 -0.024]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.027  0.025  0.03   0.015  0.005 -0.024]
+angular error magnitude [omega_b]: 0.048
+linear error magnitude [v_b]: 0.029
+
+iteration 148:
+SE(3) end - effector config: 
+[[ 0.999 -0.028  0.024  0.013]
+ [ 0.028  0.999 -0.024  0.005]
+ [-0.023  0.025  0.999 -0.022]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.025  0.023  0.028  0.014  0.004 -0.022]
+angular error magnitude [omega_b]: 0.044
+linear error magnitude [v_b]: 0.026
+
+iteration 149:
+SE(3) end - effector config: 
+[[ 0.999 -0.026  0.022  0.012]
+ [ 0.026  0.999 -0.022  0.004]
+ [-0.021  0.023  1.    -0.02 ]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.023  0.021  0.026  0.013  0.004 -0.02 ]
+angular error magnitude [omega_b]: 0.04
+linear error magnitude [v_b]: 0.024
+
+iteration 150:
+SE(3) end - effector config: 
+[[ 1.    -0.024  0.02   0.011]
+ [ 0.024  1.    -0.021  0.004]
+ [-0.019  0.021  1.    -0.019]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.021  0.02   0.024  0.012  0.004 -0.019]
+angular error magnitude [omega_b]: 0.037
+linear error magnitude [v_b]: 0.022
+
+iteration 151:
+SE(3) end - effector config: 
+[[ 1.    -0.022  0.018  0.01 ]
+ [ 0.022  1.    -0.019  0.004]
+ [-0.018  0.019  1.    -0.017]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.019  0.018  0.022  0.011  0.003 -0.017]
+angular error magnitude [omega_b]: 0.034
+linear error magnitude [v_b]: 0.021
+
+iteration 152:
+SE(3) end - effector config: 
+[[ 1.    -0.02   0.017  0.01 ]
+ [ 0.02   1.    -0.017  0.003]
+ [-0.016  0.018  1.    -0.016]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.018  0.017  0.02   0.01   0.003 -0.016]
+angular error magnitude [omega_b]: 0.031
+linear error magnitude [v_b]: 0.019
+
+iteration 153:
+SE(3) end - effector config: 
+[[ 1.    -0.018  0.015  0.009]
+ [ 0.019  1.    -0.016  0.003]
+ [-0.015  0.016  1.    -0.015]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.016  0.015  0.018  0.009  0.003 -0.015]
+angular error magnitude [omega_b]: 0.029
+linear error magnitude [v_b]: 0.017
+
+iteration 154:
+SE(3) end - effector config: 
+[[ 1.    -0.017  0.014  0.008]
+ [ 0.017  1.    -0.015  0.003]
+ [-0.014  0.015  1.    -0.013]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.015  0.014  0.017  0.008  0.003 -0.013]
+angular error magnitude [omega_b]: 0.027
+linear error magnitude [v_b]: 0.016
+
+iteration 155:
+SE(3) end - effector config: 
+[[ 1.    -0.016  0.013  0.008]
+ [ 0.016  1.    -0.014  0.002]
+ [-0.013  0.014  1.    -0.012]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.014  0.013  0.016  0.008  0.002 -0.012]
+angular error magnitude [omega_b]: 0.025
+linear error magnitude [v_b]: 0.015
+
+iteration 156:
+SE(3) end - effector config: 
+[[ 1.    -0.014  0.012  0.007]
+ [ 0.014  1.    -0.013  0.002]
+ [-0.012  0.013  1.    -0.011]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.013  0.012  0.014  0.007  0.002 -0.011]
+angular error magnitude [omega_b]: 0.023
+linear error magnitude [v_b]: 0.014
+
+iteration 157:
+SE(3) end - effector config: 
+[[ 1.    -0.013  0.011  0.006]
+ [ 0.013  1.    -0.012  0.002]
+ [-0.011  0.012  1.    -0.011]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.012  0.011  0.013  0.006  0.002 -0.01 ]
+angular error magnitude [omega_b]: 0.021
+linear error magnitude [v_b]: 0.012
+
+iteration 158:
+SE(3) end - effector config: 
+[[ 1.    -0.012  0.01   0.006]
+ [ 0.012  1.    -0.011  0.002]
+ [-0.01   0.011  1.    -0.01 ]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.011  0.01   0.012  0.006  0.002 -0.01 ]
+angular error magnitude [omega_b]: 0.019
+linear error magnitude [v_b]: 0.012
+
+iteration 159:
+SE(3) end - effector config: 
+[[ 1.    -0.011  0.009  0.005]
+ [ 0.011  1.    -0.01   0.002]
+ [-0.009  0.01   1.    -0.009]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.01   0.009  0.011  0.006  0.002 -0.009]
+angular error magnitude [omega_b]: 0.018
+linear error magnitude [v_b]: 0.011
+
+iteration 160:
+SE(3) end - effector config: 
+[[ 1.    -0.01   0.009  0.005]
+ [ 0.01   1.    -0.009  0.002]
+ [-0.009  0.009  1.    -0.008]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.009  0.009  0.01   0.005  0.002 -0.008]
+angular error magnitude [omega_b]: 0.016
+linear error magnitude [v_b]: 0.01
+
+iteration 161:
+SE(3) end - effector config: 
+[[ 1.    -0.01   0.008  0.005]
+ [ 0.01   1.    -0.008  0.002]
+ [-0.008  0.009  1.    -0.008]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.008  0.008  0.01   0.005  0.001 -0.008]
+angular error magnitude [omega_b]: 0.015
+linear error magnitude [v_b]: 0.009
+
+iteration 162:
+SE(3) end - effector config: 
+[[ 1.    -0.009  0.007  0.004]
+ [ 0.009  1.    -0.008  0.001]
+ [-0.007  0.008  1.    -0.007]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.008  0.007  0.009  0.004  0.001 -0.007]
+angular error magnitude [omega_b]: 0.014
+linear error magnitude [v_b]: 0.008
+
+iteration 163:
+SE(3) end - effector config: 
+[[ 1.    -0.008  0.007  0.004]
+ [ 0.008  1.    -0.007  0.001]
+ [-0.007  0.007  1.    -0.007]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.007  0.007  0.008  0.004  0.001 -0.007]
+angular error magnitude [omega_b]: 0.013
+linear error magnitude [v_b]: 0.008
+
+iteration 164:
+SE(3) end - effector config: 
+[[ 1.    -0.008  0.006  0.004]
+ [ 0.008  1.    -0.007  0.001]
+ [-0.006  0.007  1.    -0.006]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.007  0.006  0.008  0.004  0.001 -0.006]
+angular error magnitude [omega_b]: 0.012
+linear error magnitude [v_b]: 0.007
+
+iteration 165:
+SE(3) end - effector config: 
+[[ 1.    -0.007  0.006  0.003]
+ [ 0.007  1.    -0.006  0.001]
+ [-0.006  0.006  1.    -0.006]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.006  0.006  0.007  0.004  0.001 -0.006]
+angular error magnitude [omega_b]: 0.011
+linear error magnitude [v_b]: 0.007
+
+iteration 166:
+SE(3) end - effector config: 
+[[ 1.    -0.007  0.006  0.003]
+ [ 0.007  1.    -0.006  0.001]
+ [-0.006  0.006  1.    -0.005]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.006  0.006  0.007  0.003  0.001 -0.005]
+angular error magnitude [omega_b]: 0.011
+linear error magnitude [v_b]: 0.006
+
+iteration 167:
+SE(3) end - effector config: 
+[[ 1.    -0.006  0.005  0.003]
+ [ 0.006  1.    -0.005  0.001]
+ [-0.005  0.006  1.    -0.005]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.005  0.005  0.006  0.003  0.001 -0.005]
+angular error magnitude [omega_b]: 0.01
+linear error magnitude [v_b]: 0.006
+
+iteration 168:
+SE(3) end - effector config: 
+[[ 1.    -0.006  0.005  0.003]
+ [ 0.006  1.    -0.005  0.001]
+ [-0.005  0.005  1.    -0.005]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.005  0.005  0.006  0.003  0.001 -0.005]
+angular error magnitude [omega_b]: 0.009
+linear error magnitude [v_b]: 0.006
+
+iteration 169:
+SE(3) end - effector config: 
+[[ 1.    -0.005  0.005  0.003]
+ [ 0.006  1.    -0.005  0.001]
+ [-0.005  0.005  1.    -0.004]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.005  0.005  0.006  0.003  0.001 -0.004]
+angular error magnitude [omega_b]: 0.009
+linear error magnitude [v_b]: 0.005
+
+iteration 170:
+SE(3) end - effector config: 
+[[ 1.    -0.005  0.004  0.003]
+ [ 0.005  1.    -0.005  0.001]
+ [-0.004  0.005  1.    -0.004]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.005  0.004  0.005  0.003  0.001 -0.004]
+angular error magnitude [omega_b]: 0.008
+linear error magnitude [v_b]: 0.005
+
+iteration 171:
+SE(3) end - effector config: 
+[[ 1.    -0.005  0.004  0.002]
+ [ 0.005  1.    -0.004  0.001]
+ [-0.004  0.004  1.    -0.004]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.004  0.004  0.005  0.002  0.001 -0.004]
+angular error magnitude [omega_b]: 0.008
+linear error magnitude [v_b]: 0.005
+
+iteration 172:
+SE(3) end - effector config: 
+[[ 1.    -0.005  0.004  0.002]
+ [ 0.005  1.    -0.004  0.001]
+ [-0.004  0.004  1.    -0.004]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.004  0.004  0.005  0.002  0.001 -0.004]
+angular error magnitude [omega_b]: 0.007
+linear error magnitude [v_b]: 0.004
+
+iteration 173:
+SE(3) end - effector config: 
+[[ 1.    -0.004  0.004  0.002]
+ [ 0.004  1.    -0.004  0.001]
+ [-0.004  0.004  1.    -0.003]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.004  0.004  0.004  0.002  0.001 -0.003]
+angular error magnitude [omega_b]: 0.007
+linear error magnitude [v_b]: 0.004
+
+iteration 174:
+SE(3) end - effector config: 
+[[ 1.    -0.004  0.003  0.002]
+ [ 0.004  1.    -0.004  0.001]
+ [-0.003  0.004  1.    -0.003]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.004  0.003  0.004  0.002  0.001 -0.003]
+angular error magnitude [omega_b]: 0.006
+linear error magnitude [v_b]: 0.004
+
+iteration 175:
+SE(3) end - effector config: 
+[[ 1.    -0.004  0.003  0.002]
+ [ 0.004  1.    -0.003  0.001]
+ [-0.003  0.003  1.    -0.003]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.003  0.003  0.004  0.002  0.001 -0.003]
+angular error magnitude [omega_b]: 0.006
+linear error magnitude [v_b]: 0.004
+
+iteration 176:
+SE(3) end - effector config: 
+[[ 1.    -0.004  0.003  0.002]
+ [ 0.004  1.    -0.003  0.001]
+ [-0.003  0.003  1.    -0.003]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.003  0.003  0.004  0.002  0.001 -0.003]
+angular error magnitude [omega_b]: 0.006
+linear error magnitude [v_b]: 0.004
+
+iteration 177:
+SE(3) end - effector config: 
+[[ 1.    -0.004  0.003  0.002]
+ [ 0.004  1.    -0.003  0.001]
+ [-0.003  0.003  1.    -0.003]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.003  0.003  0.004  0.002  0.001 -0.003]
+angular error magnitude [omega_b]: 0.006
+linear error magnitude [v_b]: 0.003
+
+iteration 178:
+SE(3) end - effector config: 
+[[ 1.    -0.003  0.003  0.002]
+ [ 0.003  1.    -0.003  0.001]
+ [-0.003  0.003  1.    -0.003]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.003  0.003  0.003  0.002  0.001 -0.003]
+angular error magnitude [omega_b]: 0.005
+linear error magnitude [v_b]: 0.003
+
+iteration 179:
+SE(3) end - effector config: 
+[[ 1.    -0.003  0.003  0.002]
+ [ 0.003  1.    -0.003  0.   ]
+ [-0.003  0.003  1.    -0.003]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.003  0.003  0.003  0.002  0.    -0.003]
+angular error magnitude [omega_b]: 0.005
+linear error magnitude [v_b]: 0.003
+
+iteration 180:
+SE(3) end - effector config: 
+[[ 1.    -0.003  0.003  0.002]
+ [ 0.003  1.    -0.003  0.   ]
+ [-0.003  0.003  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.003  0.003  0.003  0.002  0.    -0.002]
+angular error magnitude [omega_b]: 0.005
+linear error magnitude [v_b]: 0.003
+
+iteration 181:
+SE(3) end - effector config: 
+[[ 1.    -0.003  0.002  0.001]
+ [ 0.003  1.    -0.003  0.   ]
+ [-0.002  0.003  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.003  0.002  0.003  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.005
+linear error magnitude [v_b]: 0.003
+
+iteration 182:
+SE(3) end - effector config: 
+[[ 1.    -0.003  0.002  0.001]
+ [ 0.003  1.    -0.003  0.   ]
+ [-0.002  0.003  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.003  0.002  0.003  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.005
+linear error magnitude [v_b]: 0.003
+
+iteration 183:
+SE(3) end - effector config: 
+[[ 1.    -0.003  0.002  0.001]
+ [ 0.003  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.003  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.004
+linear error magnitude [v_b]: 0.003
+
+iteration 184:
+SE(3) end - effector config: 
+[[ 1.    -0.003  0.002  0.001]
+ [ 0.003  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.003  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.004
+linear error magnitude [v_b]: 0.003
+
+iteration 185:
+SE(3) end - effector config: 
+[[ 1.    -0.003  0.002  0.001]
+ [ 0.003  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.003  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.004
+linear error magnitude [v_b]: 0.002
+
+iteration 186:
+SE(3) end - effector config: 
+[[ 1.    -0.003  0.002  0.001]
+ [ 0.003  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.003  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.004
+linear error magnitude [v_b]: 0.002
+
+iteration 187:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.004
+linear error magnitude [v_b]: 0.002
+
+iteration 188:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.004
+linear error magnitude [v_b]: 0.002
+
+iteration 189:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.004
+linear error magnitude [v_b]: 0.002
+
+iteration 190:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.004
+linear error magnitude [v_b]: 0.002
+
+iteration 191:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.004
+linear error magnitude [v_b]: 0.002
+
+iteration 192:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.004
+linear error magnitude [v_b]: 0.002
+
+iteration 193:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 194:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 195:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 196:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 197:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 198:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 199:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 200:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 201:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 202:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 203:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 204:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 205:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 206:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 207:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 208:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 209:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 210:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 211:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.002]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.002]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 212:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 213:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 214:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 215:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 216:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 217:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 218:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 219:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.002  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.002  0.002  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.002  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 220:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.001  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.001  0.002  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.001  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 221:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.001  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.001  0.002  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.001  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 222:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.001  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.001  0.002  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.001  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 223:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.001  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.001  0.002  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.001  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 224:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.001  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.001  0.002  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.001  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 225:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.001  0.001]
+ [ 0.002  1.    -0.002  0.   ]
+ [-0.001  0.002  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.002  0.001  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 226:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.001  0.001]
+ [ 0.002  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 227:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.001  0.001]
+ [ 0.002  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 228:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.001  0.001]
+ [ 0.002  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 229:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.001  0.001]
+ [ 0.002  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 230:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.001  0.001]
+ [ 0.002  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 231:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.001  0.001]
+ [ 0.002  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.003
+linear error magnitude [v_b]: 0.002
+
+iteration 232:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.001  0.001]
+ [ 0.002  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 233:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.001  0.001]
+ [ 0.002  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 234:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.001  0.001]
+ [ 0.002  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 235:
+SE(3) end - effector config: 
+[[ 1.    -0.002  0.001  0.001]
+ [ 0.002  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.002  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 236:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.001]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 237:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.001]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 238:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.001]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 239:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.001]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 240:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.001]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 241:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.001]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 242:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.001]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 243:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.001]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 244:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.001]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 245:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.001]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 246:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.001]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 247:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.001]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 248:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.001]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 249:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.001]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 250:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.001]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 251:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.001]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 252:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.001]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 253:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.001]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 254:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.001]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.001  0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 255:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.     0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 256:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.     0.    -0.001]
+angular error magnitude [omega_b]: 0.002
+linear error magnitude [v_b]: 0.001
+
+iteration 257:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.     0.    -0.001]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 258:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.     0.    -0.001]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 259:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.     0.    -0.001]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 260:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.     0.    -0.001]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 261:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.     0.    -0.001]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 262:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.     0.    -0.001]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 263:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.     0.    -0.001]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 264:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.     0.    -0.001]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 265:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.     0.    -0.001]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 266:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.     0.    -0.001]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 267:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.     0.    -0.001]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 268:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.     0.    -0.001]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 269:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.     0.    -0.001]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 270:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.     0.    -0.001]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 271:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.     0.    -0.001]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 272:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.001]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.     0.    -0.001]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 273:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.   ]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.     0.    -0.   ]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 274:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.001  0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.001  0.001  1.    -0.   ]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.001  0.001  0.     0.    -0.   ]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 275:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.     0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.     0.001  1.    -0.   ]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.     0.001  0.     0.    -0.   ]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 276:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.     0.   ]
+ [ 0.001  1.    -0.001  0.   ]
+ [-0.     0.001  1.    -0.   ]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.001  0.     0.001  0.     0.    -0.   ]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 277:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.     0.   ]
+ [ 0.001  1.    -0.     0.   ]
+ [-0.     0.     1.    -0.   ]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.     0.     0.001  0.     0.    -0.   ]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 278:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.     0.   ]
+ [ 0.001  1.    -0.     0.   ]
+ [-0.     0.     1.    -0.   ]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.     0.     0.001  0.     0.    -0.   ]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.001
+
+iteration 279:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.     0.   ]
+ [ 0.001  1.    -0.     0.   ]
+ [-0.     0.     1.    -0.   ]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.     0.     0.001  0.     0.    -0.   ]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.0
+
+iteration 280:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.     0.   ]
+ [ 0.001  1.    -0.     0.   ]
+ [-0.     0.     1.    -0.   ]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.     0.     0.001  0.     0.    -0.   ]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.0
+
+iteration 281:
+SE(3) end - effector config: 
+[[ 1.    -0.001  0.     0.   ]
+ [ 0.001  1.    -0.     0.   ]
+ [-0.     0.     1.    -0.   ]
+ [ 0.     0.     0.     1.   ]]
+error twist V_B: [ 0.     0.     0.001  0.     0.    -0.   ]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.0
+
+iteration 282:
+SE(3) end - effector config: 
+[[ 1. -0.  0.  0.]
+ [ 0.  1. -0.  0.]
+ [-0.  0.  1. -0.]
+ [ 0.  0.  0.  1.]]
+error twist V_B: [ 0.  0.  0.  0.  0. -0.]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.0
+
+iteration 283:
+SE(3) end - effector config: 
+[[ 1. -0.  0.  0.]
+ [ 0.  1. -0.  0.]
+ [-0.  0.  1. -0.]
+ [ 0.  0.  0.  1.]]
+error twist V_B: [ 0.  0.  0.  0.  0. -0.]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.0
+
+iteration 284:
+SE(3) end - effector config: 
+[[ 1. -0.  0.  0.]
+ [ 0.  1. -0.  0.]
+ [-0.  0.  1. -0.]
+ [ 0.  0.  0.  1.]]
+error twist V_B: [ 0.  0.  0.  0.  0. -0.]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.0
+
+iteration 285:
+SE(3) end - effector config: 
+[[ 1. -0.  0.  0.]
+ [ 0.  1. -0.  0.]
+ [-0.  0.  1. -0.]
+ [ 0.  0.  0.  1.]]
+error twist V_B: [ 0.  0.  0.  0.  0. -0.]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.0
+
+iteration 286:
+SE(3) end - effector config: 
+[[ 1. -0.  0.  0.]
+ [ 0.  1. -0.  0.]
+ [-0.  0.  1. -0.]
+ [ 0.  0.  0.  1.]]
+error twist V_B: [ 0.  0.  0.  0.  0. -0.]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.0
+
+iteration 287:
+SE(3) end - effector config: 
+[[ 1. -0.  0.  0.]
+ [ 0.  1. -0.  0.]
+ [-0.  0.  1. -0.]
+ [ 0.  0.  0.  1.]]
+error twist V_B: [ 0.  0.  0.  0.  0. -0.]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.0
+
+iteration 288:
+SE(3) end - effector config: 
+[[ 1. -0.  0.  0.]
+ [ 0.  1. -0.  0.]
+ [-0.  0.  1. -0.]
+ [ 0.  0.  0.  1.]]
+error twist V_B: [ 0.  0.  0.  0.  0. -0.]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.0
+
+iteration 289:
+SE(3) end - effector config: 
+[[ 1. -0.  0.  0.]
+ [ 0.  1. -0.  0.]
+ [-0.  0.  1. -0.]
+ [ 0.  0.  0.  1.]]
+error twist V_B: [ 0.  0.  0.  0.  0. -0.]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.0
+
+iteration 290:
+SE(3) end - effector config: 
+[[ 1. -0.  0.  0.]
+ [ 0.  1. -0.  0.]
+ [-0.  0.  1. -0.]
+ [ 0.  0.  0.  1.]]
+error twist V_B: [ 0.  0.  0.  0.  0. -0.]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.0
+
+iteration 291:
+SE(3) end - effector config: 
+[[ 1. -0.  0.  0.]
+ [ 0.  1. -0.  0.]
+ [-0.  0.  1. -0.]
+ [ 0.  0.  0.  1.]]
+error twist V_B: [ 0.  0.  0.  0.  0. -0.]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.0
+
+iteration 292:
+SE(3) end - effector config: 
+[[ 1. -0.  0.  0.]
+ [ 0.  1. -0.  0.]
+ [-0.  0.  1. -0.]
+ [ 0.  0.  0.  1.]]
+error twist V_B: [ 0.  0.  0.  0.  0. -0.]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.0
+
+iteration 293:
+SE(3) end - effector config: 
+[[ 1. -0.  0.  0.]
+ [ 0.  1. -0.  0.]
+ [-0.  0.  1. -0.]
+ [ 0.  0.  0.  1.]]
+error twist V_B: [ 0.  0.  0.  0.  0. -0.]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.0
+
+iteration 294:
+SE(3) end - effector config: 
+[[ 1. -0.  0.  0.]
+ [ 0.  1. -0.  0.]
+ [-0.  0.  1. -0.]
+ [ 0.  0.  0.  1.]]
+error twist V_B: [ 0.  0.  0.  0.  0. -0.]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.0
+
+iteration 295:
+SE(3) end - effector config: 
+[[ 1. -0.  0.  0.]
+ [ 0.  1. -0.  0.]
+ [-0.  0.  1. -0.]
+ [ 0.  0.  0.  1.]]
+error twist V_B: [ 0.  0.  0.  0.  0. -0.]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.0
+
+iteration 296:
+SE(3) end - effector config: 
+[[ 1. -0.  0.  0.]
+ [ 0.  1. -0.  0.]
+ [-0.  0.  1. -0.]
+ [ 0.  0.  0.  1.]]
+error twist V_B: [ 0.  0.  0.  0.  0. -0.]
+angular error magnitude [omega_b]: 0.001
+linear error magnitude [v_b]: 0.0
+
+iteration 297:
+SE(3) end - effector config: 
+[[ 1. -0.  0.  0.]
+ [ 0.  1. -0.  0.]
+ [-0.  0.  1. -0.]
+ [ 0.  0.  0.  1.]]
+error twist V_B: [ 0.  0.  0.  0.  0. -0.]
+angular error magnitude [omega_b]: 0.0
+linear error magnitude [v_b]: 0.0
+
+iteration 298:
+SE(3) end - effector config: 
+[[ 1. -0.  0.  0.]
+ [ 0.  1. -0.  0.]
+ [-0.  0.  1. -0.]
+ [ 0.  0.  0.  1.]]
+error twist V_B: [ 0.  0.  0.  0.  0. -0.]
+angular error magnitude [omega_b]: 0.0
+linear error magnitude [v_b]: 0.0
+
+iteration 299:
+SE(3) end - effector config: 
+[[ 1. -0.  0.  0.]
+ [ 0.  1. -0.  0.]
+ [-0.  0.  1. -0.]
+ [ 0.  0.  0.  1.]]
+error twist V_B: [ 0.  0.  0.  0.  0. -0.]
+angular error magnitude [omega_b]: 0.0
+linear error magnitude [v_b]: 0.0
+
+iteration 300:
+SE(3) end - effector config: 
+[[ 1. -0.  0.  0.]
+ [ 0.  1. -0.  0.]
+ [-0.  0.  1. -0.]
+ [ 0.  0.  0.  1.]]
+error twist V_B: [ 0.  0.  0.  0.  0. -0.]
+angular error magnitude [omega_b]: 0.0
+linear error magnitude [v_b]: 0.0
+
