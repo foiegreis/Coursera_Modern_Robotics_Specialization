@@ -3,6 +3,9 @@ General code for the Kuka YouBot Pick and Place task, from Modern Robotics Cours
 copyrights @foiegreis,  October 2023
 
 Please refer to the code in the results /best /newTask /overshoot folders
-The /code folder contains a general form of the code, with an example config
+
+Run the code as:
+
+runScript.py -m best # or overshoot or newTask
 
 cheers!
