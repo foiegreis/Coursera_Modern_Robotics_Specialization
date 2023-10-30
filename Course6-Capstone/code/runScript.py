@@ -7,29 +7,21 @@ import matplotlib.pyplot as plt
 import modern_robotics as mr
 import numpy as np
 import pandas as pd
+import configparser
+import argparse
 import sys
 import os
 
 class YouBot:
-    def __init__(self, d_l, d_w, r):
+    def __init__(self, d_l, d_w, r, m_0e, b, t_b0, joint_limits):
         self.d_l = d_l  # half length of mobile base
         self.d_w = d_w  # half wheels distance
         self.r = r  # wheel radius
 
-        self.m_0e = [[1, 0, 0, 0.033],
-                     [0, 1, 0, 0],
-                     [0, 0, 1, 0.6545],
-                     [0, 0, 0, 1]]
-        self.b = [[0, 0, 0, 0, 0],
-                  [0, -1, -1, -1, 0],
-                  [1, 0, 0, 0, 1],
-                  [0, -0.5076, -0.3526, -0.2176, 0],
-                  [0.033, 0, 0, 0, 0],
-                  [0, 0, 0, 0, 0]]
-        self.t_b0 = np.array([[1, 0, 0, 0.1662],
-                              [0, 1, 0, 0],
-                              [0, 0, 1, 0.0026],
-                              [0, 0, 0, 1]])
+        self.m_0e = m_0e
+        self.b = b
+        self.t_b0 = t_b0
+
         self.f = np.dot((self.r / 4), np.array([[-1 / (self.d_l + self.d_w), 1 / (self.d_l + self.d_w),
                                                  1 / (self.d_l + self.d_w), -1 / (self.d_l + self.d_w)],
                                                 [1, 1, 1, 1],
@@ -38,10 +30,12 @@ class YouBot:
         self.f6 = np.zeros([6, self.f.shape[1]])
         self.f6[2:5, :] = self.f[0:3, :]
 
+        self.joint_limits = joint_limits
 
 class PickAndPlace(YouBot):
-    def __init__(self, dt, k, method, degree, z_standoff, max_w_dot, max_a_dot, control_type, test_joint_limits_flag):
-        super().__init__(d_l, d_w, r)
+    def __init__(self, dt, k, method, degree, z_standoff, pickup_angle, max_w_dot, max_a_dot,
+                 control_type, test_joint_limits_flag):
+        super().__init__(d_l, d_w, r, m_0e, b, t_b0, joint_limits)
 
         self.dt = dt  # timestep
         self.k = k  # how many trajectory points for each timestep
@@ -50,12 +44,10 @@ class PickAndPlace(YouBot):
         self.degree = degree  # 3 for cubic, 5 for quintic
 
         self.z_standoff = z_standoff  # z-axis standoff
+        self.pickup_angle = pickup_angle
 
         self.max_w_dot = max_w_dot  # max wheel velocity
         self.max_a_dot = max_a_dot  # max arm joint velocity
-
-        self.xe_integral = np.zeros(6)  # to calculate integration
-        self.xe_prev = np.zeros(6)  # to calculate derivative
 
         self.control_type = control_type  # 'ff_pi' or 'ff_pid'
 
@@ -220,7 +212,7 @@ class PickAndPlace(YouBot):
         Rc_init, pc_init = mr.TransToRp(tsc_init)
         Rc_final, pc_final = mr.TransToRp(tsc_final)
 
-        R1 = self.rotate_matrix(Rse_init, np.pi / 6, 'y')
+        R1 = self.rotate_matrix(Rse_init, self.pickup_angle, 'y')
         p1 = [pc_init[0], pc_init[1], pc_init[2] + self.z_standoff]
 
         R2 = R1
@@ -326,7 +318,7 @@ class PickAndPlace(YouBot):
             raise ValueError('Inverse kinematics failed')
         return theta_list
 
-    def feedforward_pid_control(self, t_se, t_se_d, t_se_d_next, kp, kd, ki, timestep):
+    def feedforward_pid_control(self, t_se, t_se_d, t_se_d_next, kp, kd, ki, timestep, xe_integral, xe_prev):
         """Computes FeedForward + PID control
         :param t_se
         :param t_se_d = desired Tse at step k
@@ -348,16 +340,16 @@ class PickAndPlace(YouBot):
         feedforward = np.dot(mr.Adjoint(np.dot(mr.TransInv(t_se), t_se_d)), vd)
 
         # error derivative
-        xe_derivative = (x_err - self.xe_prev) / timestep
+        xe_derivative = (x_err - xe_prev) / timestep
 
         # control twist
-        v = feedforward + np.dot(kp, x_err) + np.dot(kd, xe_derivative) + np.dot(ki, (self.xe_integral * timestep))
+        v = feedforward + np.dot(kp, x_err) + np.dot(kd, xe_derivative) + np.dot(ki, (xe_integral * timestep))
 
-        self.xe_integral += x_err
-        self.xe_prev = x_err
-        return v, x_err
+        xe_integral += x_err
+        xe_prev = x_err
+        return v, x_err, xe_integral, xe_prev
 
-    def feedforward_pi_control(self, t_se, t_se_d, t_se_d_next, kp, ki, timestep):
+    def feedforward_pi_control(self, t_se, t_se_d, t_se_d_next, kp, ki, timestep, xe_integral):
         """Computes FeedForward + PI control
         :param t_se
         :param t_se_d =  desired Tse at step k
@@ -378,12 +370,12 @@ class PickAndPlace(YouBot):
         feedforward = np.dot(mr.Adjoint(np.dot(mr.TransInv(t_se), t_se_d)), vd)
 
         # control twist
-        v = feedforward + np.dot(kp, x_err) + np.dot(ki, (self.xe_integral * timestep))
+        v = feedforward + np.dot(kp, x_err) + np.dot(ki, (xe_integral * timestep))
 
-        self.xe_integral += x_err
-        return v, x_err
+        xe_integral += x_err
+        return v, x_err, xe_integral
 
-    def pi_control(self, t_se, t_se_d, kp, ki, timestep):
+    def pi_control(self, t_se, t_se_d, kp, ki, timestep, xe_integral):
         """Computes PI control
         :param t_se
         :param t_se_d =  desired Tse at step k
@@ -398,10 +390,10 @@ class PickAndPlace(YouBot):
         x_err = mr.se3ToVec(mr.MatrixLog6(np.dot(mr.TransInv(t_se), t_se_d)))
 
         # control twist
-        v = np.dot(kp, x_err) + np.dot(ki, (self.xe_integral * timestep))
+        v = np.dot(kp, x_err) + np.dot(ki, (xe_integral * timestep))
 
-        self.xe_integral += x_err
-        return v, x_err
+        xe_integral += x_err
+        return v, x_err, xe_integral
 
     def compute_je(self, qa):
         """Computes end effector Jacobian"""
@@ -412,8 +404,7 @@ class PickAndPlace(YouBot):
         j_e = np.concatenate((j_base, j_arm), axis=1)
         return j_e
 
-    @staticmethod
-    def test_joint_limits(q, j):
+    def test_joint_limits(self, q, j):
         """Checks if J respects the constraints
         you could constrain joints 3 and 4 to always be less than -0.2 radians (or so).
         The arm will avoid singularities occurring when joints 3 or 4 are at the zero angle,
@@ -422,18 +413,18 @@ class PickAndPlace(YouBot):
         This indicates that moving these joints causes no motion at the end-effector, so the pseudoinverse
         solution will not request any motion from these joints.
         """
-        joint3_limit = - 0.2
-        joint4_limit = -0.2
-        constraints = np.array([0, 0, joint3_limit, joint4_limit, 0, 0, 0, 0, 0])
 
-        q_check = q[3:]
+        q_check = q[3:8]  # arm joints
         j_check = j.copy()
+
         for i, qi in enumerate(q_check):
-            if constraints[i] != 0 and qi < constraints[i]:
+            if self.joint_limits[i][0] != 0 and qi <= self.joint_limits[i][0]:
+                j_check[:, i] = 0
+            if self.joint_limits[i][1] != 0 and qi >= self.joint_limits[i][1]:
                 j_check[:, i] = 0
         return j_check
 
-    def compute_velocities_control(self, q, qc, qa, xd, xd_next, kp, kd, ki, timestep):
+    def compute_velocities_control(self, q, qc, qa, xd, xd_next, kp, kd, ki, dt, xe_integral, xe_prev):
         """Computes U, the velocity control
         :param q = current configuration (12 elements)
         :param qc = current chassis configuration
@@ -451,11 +442,11 @@ class PickAndPlace(YouBot):
         x = self.forward_kinematics_se(qc, qa)  # x = t_se
 
         if self.control_type == 'ff_pi':
-            v_e, x_err = self.feedforward_pi_control(x, xd, xd_next, kp, ki, timestep)
+            v_e, x_err, xe_integral = self.feedforward_pi_control(x, xd, xd_next, kp, ki, dt, xe_integral)
         elif self.control_type == 'ff_pid':
-            v_e, x_err = self.feedforward_pid_control(x, xd, xd_next, kp, kd, ki, timestep)
+            v_e, x_err, xe_integral, xe_prev = self.feedforward_pid_control(x, xd, xd_next, kp, kd, ki, dt, xe_integral, xe_prev)
         elif self.control_type == 'pi':
-            v_e, x_err = self.pi_control(x, xd, kp, ki, timestep)
+            v_e, x_err, xe_integral = self.pi_control(x, xd, kp, ki, dt, xe_integral)
 
         # compute end-effector jacobian
         j_e = self.compute_je(qa)
@@ -468,7 +459,7 @@ class PickAndPlace(YouBot):
         # velocity control
         u = np.dot(np.linalg.pinv(j_e, tol), v_e)
 
-        return u, x_err
+        return u, x_err, xe_integral, xe_prev
 
     def plot_and_save_error(self, path, name):
         """Plots error"""
@@ -480,10 +471,14 @@ class PickAndPlace(YouBot):
             err3 = df.iloc[:, 2]
             err4 = df.iloc[:, 3]
             err5 = df.iloc[:, 4]
-            err6 = df.iloc[:, 5]
             step = list(range(df.shape[0]))
 
-        plt.plot(step, err1, step, err2, step, err3, step, err4, step, err5, step, err6)
+        plt.plot(step, err1, label='j1')
+        plt.plot(step, err2, label='j2')
+        plt.plot(step, err3, label='j3')
+        plt.plot(step, err4, label='j4')
+        plt.plot(step, err5, label='j5')
+        plt.legend(loc='upper right')
         plt.xlabel('Time (ms)')
         plt.ylabel(f'Error - se(3) for controller {self.control_type}')
         plt.savefig(name)
@@ -514,88 +509,90 @@ class PickAndPlace(YouBot):
 ###################################################################################################
 if __name__ == '__main__':
 
-    print("\n**** Capstone project - YouBot pick And place task ****")
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument("-m", "--mode", required=True, help='execution mode: best, overshoot, newTask')
+    args = parser.parse_args()
+    suffix = '_' + args.mode
+
+    config = configparser.ConfigParser()
+    config.read(f'config{suffix}.ini')
+
+    print(f"\n**** Capstone project - YouBot pick And place task  - Testcase: {suffix[1:]} ****")
 
     # ---------------------------------------------------------------------------------------------
     # Settings
     # ---------------------------------------------------------------------------------------------
-    d_l = 0.235
-    d_w = 0.15
-    r = 0.0475
+    d_l = eval(config['youbot']['d_l'])
+    d_w = eval(config['youbot']['d_w'])
+    r = eval(config['youbot']['r'])
 
-    dt = 0.01
-    k = 1
-    method = 'screw'
-    degree = 5
-
-    z_standoff = 0.12
-    # we add shift x and shift z to tsc_init and final to grab the cube more firmly
-    # p_grab = [pc_init[0] + shift_x, pc_init[1], pc_init[2] + shift_z]
-    # p_release = [pc_final[0], pc_final[1] - shift_x, pc_final[2] - shift_z]
-    shift_x = 0.01
-    shift_z = 0.02
-
-    max_w_dot = 20 #max wheels velocity
-    max_a_dot = 20 #max arm joints velocity
+    m_0e = eval(config['youbot']['m_0e'])
+    b = eval(config['youbot']['b'])
+    t_b0 = eval(config['youbot']['t_b0'])
 
     # ---------------------------------------------------------------------------------------------
     # Config
     # ---------------------------------------------------------------------------------------------
+    joint_limits = eval(config['youbot']['joint_limits'])
 
-    kp = np.eye(6) * 4.0
-    kd = np.eye(6) * 0.8
-    ki = np.eye(6) * 0.003
-    control_types = ['ff_pid', 'ff_pi', 'pi']
-    control_type = control_types[0]
+    max_w_dot = eval(config['control']['max_w_dot'])  # max wheels velocity
+    max_a_dot = eval(config['control']['max_a_dot'])  # max arm joints velocity
 
-    test_joint_limits_flag = True
+    dt = eval(config['control']['dt'])
+    k = eval(config['control']['k'])
+
+    method = eval(config['control']['method'])
+    degree = eval(config['control']['degree'])
+
+    z_standoff = eval(config['control']['z_standoff'])
+    pickup_angle = eval(config['control']['pickup_angle'])
+
+    # we add shift x and shift z to tsc_init and final to grab the cube more firmly
+    # p_grab = [pc_init[0] + shift_x, pc_init[1], pc_init[2] + shift_z]
+    # p_release = [pc_final[0], pc_final[1] - shift_x, pc_final[2] - shift_z]
+    shift_x = eval(config['control']['shift_x'])
+    shift_z = eval(config['control']['shift_z'])
+
+    kp = eval(config['control']['kp'])
+    kd = eval(config['control']['kd'])
+    ki = eval(config['control']['ki'])
+
+    control_types = eval(config['control']['control_types'])
+    control_type = eval(config['control']['control_type'])
+
+    test_joint_limits_flag = eval(config['control']['test_joint_limits_flag'])
 
     # initial trajectory configuration
-    tse_init = np.array([[0, 0, 1,   0],
-                         [0, 1, 0,   0],
-                         [-1, 0, 0, 0.5],
-                         [0, 0, 0,   1]])
+    tse_init = eval(config['control']['tse_init'])
 
     # cube configurations
-    phi_init, x_init, y_init = 0, 1, 0
-    tsc_init = np.array([[np.cos(phi_init), -np.sin(phi_init), 0, x_init],
-                         [np.sin(phi_init), np.cos(phi_init), 0, y_init],
-                         [0, 0, 1, 0],
-                         [0, 0, 0, 1]])
+    phi_init = eval(config['control']['phi_init'])
+    x_init = eval(config['control']['x_init'])
+    y_init = eval(config['control']['y_init'])
+    tsc_init = eval(config['control']['tsc_init'])
 
-    phi_final, x_final, y_final = -np.pi/2, 0, -1
-    tsc_final = np.array([[np.cos(phi_final), -np.sin(phi_final), 0, x_final],
-                          [np.sin(phi_final), np.cos(phi_final), 0, y_final],
-                          [0, 0, 1, 0.025],
-                          [0, 0, 0, 1]])
+    phi_final = eval(config['control']['phi_final'])
+    x_final = eval(config['control']['x_final'])
+    y_final = eval(config['control']['y_final'])
+    tsc_final = eval(config['control']['tsc_final'])
 
     # initial end effector configuration error from tse_init
-    err_phi = -np.pi/6
-    err_x = -0.2
-    err_y = 0.2
-    theta1 = np.pi/2
-    theta2 = -np.pi/6
-    theta3 = -np.pi/6
+    err_phi = eval(config['control']['err_phi'])
+    err_x = eval(config['control']['err_x'])
+    err_y = eval(config['control']['err_y'])
+    theta1 = eval(config['control']['theta1'])
+    theta2 = eval(config['control']['theta2'])
+    theta3 = eval(config['control']['theta3'])
 
     # chassis_phi, chassis_x, chassis_y, j1, j2, j3, j4, j5, w1, w2, w3, w4
-    q = [err_phi, err_x, err_y, theta1, theta2, theta3, 0, 0, 0, 0, 0, 0]
+    q = eval(config['control']['q'])
 
     # initial control
-    u = [0, 0, 0, 0, 0, 0, 0, 0, 0]
+    u = eval(config['control']['u'])
 
     # initial gripper state
-    gripper_state = 0
-    temp = sys.stdout
-    sys.stdout = open('log.txt', 'w')
-    print("Config")
-    print(f"cube initial config           phi = {phi_init}, x = {x_init}, y = {y_init}")
-    print(f"cube final config             phi = {phi_final}, x = {x_final}, y = {y_final}")
-    print(f"initial config error          phi = {err_phi}, x = {err_x}, y = {err_y}")
-    print(f"initial config                q = {q}")
-    print(f"max wheels velocity           {max_w_dot}")
-    print(f"max arm joints velocity       {max_a_dot}")
-    print(f"controller type               {control_type}, kp = {kp[0][0]}, kd = {kd[0][0] if control_type=='ff_pid' else 0}, ki = {ki[0][0]}")
-    print(f"test joint limits             {test_joint_limits_flag}")
+    gripper_state = eval(config['control']['gripper_state'])
 
     # ---------------------------------------------------------------------------------------------
     # Run
@@ -610,12 +607,15 @@ if __name__ == '__main__':
     u_list.append(u)
 
     # initialize
-    robot = YouBot(d_l, d_w, r)
-    controller = PickAndPlace(dt, k, method, degree, z_standoff, max_w_dot, max_a_dot,
+    robot = YouBot(d_l, d_w, r, m_0e, b, t_b0, joint_limits)
+    controller = PickAndPlace(dt, k, method, degree, z_standoff, pickup_angle, max_w_dot, max_a_dot,
                               control_type, test_joint_limits_flag)
 
     # generate desired trajectory
     planned_trajectory = controller.trajectory_generator(tse_init, tsc_init, tsc_final, shift_x, shift_z)
+
+    xe_integral = np.zeros(6)  # to calculate integration
+    xe_prev = np.zeros(6)  # to calculate derivative
 
     for i in range(len(planned_trajectory)-1):
 
@@ -626,7 +626,9 @@ if __name__ == '__main__':
         qc, qa, qw = controller.decode_configuration(q)
 
         # compute control
-        u, x_err = controller.compute_velocities_control(q, qc, qa, xd, xd_next, kp, kd, ki, dt)
+        u, x_err, xe_integral, xe_prev = controller.compute_velocities_control(q, qc, qa, xd, xd_next,
+                                                                               kp, kd, ki, dt,
+                                                                               xe_integral, xe_prev)
 
         # generate next state
         q = controller.next_state(q, u)
@@ -637,24 +639,47 @@ if __name__ == '__main__':
         x_err_list.append(x_err)
         u_list.append(u)
 
+    path_traj_csv = os.path.join(os.path.abspath('..'), f'results/{suffix[1:]}/trajectory{suffix}.csv')
+    path_err_csv = os.path.join(os.path.abspath('..'), f'results/{suffix[1:]}/err{suffix}.csv')
+    path_u_csv = os.path.join(os.path.abspath('..'), f'results/{suffix[1:]}/controls{suffix}.csv')
+    path_td_csv = os.path.join(os.path.abspath('..'), f'results/{suffix[1:]}/desired_trajectory{suffix}.csv')
+
     df = pd.DataFrame(x_list)
-    df.to_csv('trajectory.csv', header=False, index=False)
+    df.to_csv(path_traj_csv, header=False, index=False)
+
     df = pd.DataFrame(x_err_list)
-    df.to_csv('err.csv', header=False, index=False)
+    df.to_csv(path_err_csv, header=False, index=False)
+
     df = pd.DataFrame(u_list)
-    df.to_csv('controls.csv', header=False, index=False)
+    df.to_csv(path_u_csv, header=False, index=False)
+
     df = pd.DataFrame(planned_trajectory)
-    df.to_csv('desired_trajectory.csv', header=False, index=False)
+    df.to_csv(path_td_csv, header=False, index=False)
 
+    # ---------------------------------------------------------------------------------------------
+    # Logging to log.txt file
+    # ---------------------------------------------------------------------------------------------
+    temp = sys.stdout
+    sys.stdout = open(os.path.join(os.path.abspath('..'), f'results/{suffix[1:]}/log{suffix}.txt'), 'w')
+
+    print(f"Config{suffix}")
+    print(f"cube initial config           phi = {phi_init}, x = {x_init}, y = {y_init}")
+    print(f"cube final config             phi = {phi_final}, x = {x_final}, y = {y_final}")
+    print(f"initial config error          phi = {err_phi}, x = {err_x}, y = {err_y}")
+    print(f"initial config                q = {q}")
+    print(f"max wheels velocity           {max_w_dot}")
+    print(f"max arm joints velocity       {max_a_dot}")
+    print(f"controller type               {control_type}, kp = {kp[0][0]}, kd = {kd[0][0] if control_type=='ff_pid' else 0}, ki = {ki[0][0]}")
+    print(f"test joint limits             {test_joint_limits_flag}")
     print(f"steps in trajectory           {len(planned_trajectory)}")
-
+    print(f"joint limits\n{joint_limits}")
     sys.stdout.close()
     sys.stdout = temp
 
-    controller.plot_and_save_error('err.csv', 'err_example.png')
-    controller.plot_and_save_controls('controls.csv', 'controls_example.png')
+    controller.plot_and_save_error(path_err_csv, path_err_csv.split('.')[0]+'.png')
+    controller.plot_and_save_controls(path_u_csv, path_u_csv.split('.')[0]+'.png')
 
-    print(f"Coppeliasim path         {os.path.join(os.path.dirname(os.path.abspath(__file__)), 'trajectory.csv')}")
+    print(f"Coppeliasim path         {path_traj_csv} ")
     print("Run configurations saved to log.txt file.")
     print("Done.")
 
